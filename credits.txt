@@ -1,0 +1,23 @@
+CREDITS
+
+Pokémon Essentials was created by:
+Flameguru
+Poccil (Peter O.)
+Maruno
+
+MKXP-z by:
+Roza
+Based on MKXP by Ancurio et al.
+
+With contributions from:
+AvatarMonkeyKirby, Marin, Boushy
+MiDas Mike, Brother1440, FL.
+PinkMan, Genzai Kawakami, Popper, help-14
+Rataime, IceGod64, Savordez, SoundSpawn
+Jacob O. Wobbrock, the__end, KitsuneKouta
+Wachunga, Lisa Anthony, Venom12, Near Fantastica, Luka S.J.
+and everyone else who helped out
+
+RPG Maker XP by:
+Enterbrain
+
