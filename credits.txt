@@ -1,6 +1,14 @@
 CREDITS
 
-Generation 8 Project:
+Emote Animation Graphics:
+Thundaga
+
+"Name Windows" v19:
+mej71
+Vendily
+theo#7722
+
+"Generation 8 Project" v1.1.2:
 
 Battler Sprites:
 Gen 1-5 Pokemon Sprites      - veekun
@@ -36,6 +44,8 @@ Golisopod User, UberDunsparce
 
 Porting to v19:
 Golisopod User, Maruno
+
+-----------------------------------------------------------
 
 Pokémon Essentials was created by:
 Flameguru
