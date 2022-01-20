@@ -171,13 +171,14 @@ Land,21
 #-------------------------------
 [043] # Pashen City
 Land,21
-    25,PIDOVE,14,16
+    20,PIDOVE,14,16
     20,SENTRET,14,16
     15,POOCHYENA,16,16
     15,SKITTY,14,16
     10,TIMBURR,14,16
     10,SKIDDO,14,16
      5,KLEFKI,14,16
+     5,MIMEJR,14,16
 #-------------------------------
 [044] # Route 6
 Land,21
@@ -194,6 +195,22 @@ Land,21
 RockSmash,50
     90,NOSEPASS,13,14
     10,GEODUDE,12,15
+#-------------------------------
+[048] # Canora Pass
+Land,21
+    20,SEWADDLE,14,17
+    20,ODDISH,14,16
+    15,WOOPER,14,16
+    15,BUNNELBY,15,16
+    10,DROWZEE,14,16
+    10,MARILL,15,17
+    10,BIBAREL,15,16
+SuperRod
+    30,MAGIKARP,14,17
+    30,ARROKUDA,15,16
+    20,GOLDEEN,15,16
+    15,POLIWAG,14,16
+    5,CORPISH,15,16
 #-------------------------------
 [049] # Rock Cave
 Cave,5
