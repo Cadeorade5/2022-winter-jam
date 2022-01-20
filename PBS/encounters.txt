@@ -169,6 +169,16 @@ Land,21
     40,SPEAROW,13,16
     10,SLUGMA,13,14
 #-------------------------------
+[043] # Pashen City
+Land,21
+    25,PIDOVE,14,16
+    20,SENTRET,14,16
+    15,POOCHYENA,16,16
+    15,SKITTY,14,16
+    10,TIMBURR,14,16
+    10,SKIDDO,14,16
+     5,KLEFKI,14,16
+#-------------------------------
 [044] # Route 6
 Land,21
     50,SHELLOS_1,12,15
