@@ -198,7 +198,7 @@ RockSmash,50
 #-------------------------------
 [048] # Canora Pass
 Land,21
-    20,SEWADDLE,14,17
+    20,LEDYBA,14,17
     20,ODDISH,14,16
     15,WOOPER,14,16
     15,BUNNELBY,15,16
@@ -330,16 +330,27 @@ Land,21
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
 #-------------------------------
+[076] # Canora Forest
+Land,21
+    25,VENONAT,15,17
+    20,COMBEE,15,17
+    12,TEDDIURSA,15,17
+    12,YANMA,15,17
+    10,PANCHAM,15,17
+    10,APPLIN,15,17
+    10,FARFETCH'D_1,15,17
+    1,MUNCHLAX,15,17
+#-------------------------------
 [077] # Canora Pass
 Land,21
-    20,SEWADDLE,15,18
+    20,LEDYBA,15,18
     20,HOPPIP,15,17
     15,WOOPER,15,18
     15,BUNNELBY,15,17
     10,DROWZEE,15,17
-    10,MARILL,15,18
+    10,DEERLING,15,17
     5,LUXIO,15,17
-    5,TANGELA,15,17
+    5,MARILL,15,18
 SuperRod
     30,MAGIKARP,15,17
     30,LOTAD,15,18
