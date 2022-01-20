@@ -329,3 +329,21 @@ Land,21
     10,PIKACHU,11,14
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
+#-------------------------------
+[077] # Canora Pass
+Land,21
+    20,SEWADDLE,15,18
+    20,HOPPIP,15,17
+    15,WOOPER,15,18
+    15,BUNNELBY,15,17
+    10,DROWZEE,15,17
+    10,MARILL,15,18
+    5,LUXIO,15,17
+    5,TANGELA,15,17
+SuperRod
+    30,MAGIKARP,15,17
+    30,LOTAD,15,18
+    20,GOLDEEN,15,17
+    15,CHEWTLE,15,18
+    5,CORPISH,15,17
+#-------------------------------
