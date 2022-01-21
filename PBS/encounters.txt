@@ -210,7 +210,7 @@ SuperRod
     30,ARROKUDA,15,16
     20,GOLDEEN,15,16
     15,POLIWAG,14,16
-    5,CORPISH,15,16
+    5,CORPHISH,15,16
 #-------------------------------
 [049] # Rock Cave
 Cave,5
@@ -345,5 +345,5 @@ SuperRod
     30,LOTAD,15,18
     20,GOLDEEN,15,17
     15,CHEWTLE,15,18
-    5,CORPISH,15,17
+    5,CORPHISH,15,17
 #-------------------------------
