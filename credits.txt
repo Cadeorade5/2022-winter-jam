@@ -16,9 +16,18 @@ Aveontrainer
 Pokémon Dawn
 Puggsoy
 Redblueyellow
+dragoon
 
 ###Emote Animation Graphics
 Thundaga
+
+###RSE NPC Overworlds
+Nintendo
+GameFreak
+FursTheFox
+soulcaliburfan
+Marnic
+_pheebs
 
 ###"Modern Quest System + UI"
 ThatWelshOne_

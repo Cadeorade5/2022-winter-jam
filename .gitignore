@@ -3,6 +3,7 @@
 #Graphics/
 #Plugins/
 Graphics/EBDX
+*.psd
 
 # Data folder, but not Data/Scripts folder
 #Data/*
