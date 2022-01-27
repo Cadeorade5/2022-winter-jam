@@ -116,3 +116,27 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#-------------------------------
+[CAMPER,Lena]
+LoseText = "Maybe you could beat that rampaging Pokemon."
+Pokemon = PONYTA,16
+Moves = FLAMECHARGE,TAILWHIP,GROWL,TACKLE
+Pokemon = SANDSHREW,17
+Moves = ROLLOUT,DEFENSECURL,POISONSTING,FURYCUTTER
+#-------------------------------
+[FISHERMAN,JORGE]
+LoseText = "Fish still are the best!"
+Pokemon = MAGIKARP,20
+Moves = SPLASH,TACKLE
+Pokemon = BASCULIN,16
+Moves = BITE,AQUAJET,TACKLE,TAILWHIP
+#-------------------------------
+[PSYCHIC,SARAH]
+LoseText = "My premonition was correct..."
+Pokemon = NATU,16
+Moves = CONFUSERAY,PECK,LEER,UTURN
+Pokemon = SOLOSIS,16
+Moves = CHARM,PSYBEAM,PROTECT,ASTONISH
+Pokemon = HATENNA,17
+Moves = CONFUSION,DISARMINGVOICE,LIFEDEW,THUNDERWAVE
+#-------------------------------
