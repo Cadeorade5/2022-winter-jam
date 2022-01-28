@@ -147,10 +147,42 @@ Moves = FLAMEWHEEL,BITE,SMOKESCREEN,WRAP
 Pokemon = VEMONAT,19
 Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
 #-------------------------------
-[,Noel]
-LoseText = "I have to train more."
-Pokemon = SIZZLIPEDE,18
-Moves = FLAMEWHEEL,BITE,SMOKESCREEN,WRAP
-Pokemon = VEMONAT,19
-Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
+[POKEMONRANGER,Josh]
+LoseText = "Stay safe!"
+Pokemon = CUBONE,18
+Moves = HEADBUTT,TAILWHIP,BULLDOZE,GROWL
+Pokemon = PANSAGE,18
+Moves = LEECHSEED,LICK,FURYSWIPES,VINEWHIP
+Pokemon = ELECTRIKE,19
+Moves = QUICKATTACK,SHOCKWAVE,LEER,THUNDERWAVE
+#-------------------------------
+[BUGCATCHER,Timothy]
+LoseText = "Maybe I should evolve my bugs."
+Pokemon = CATERPIE,20
+Moves = TACKLE,STRINGSHOT,BUGBITE
+Pokemon = WURMPLE,20
+Moves = TACKLE,STRINGSHOT,POISONSTING,BUGBITE
+Pokemon = GRUBBIN,19
+Moves = BITE,BUGBITE,VISEGRIP,STRINGSHOT
+Pokemon = BLIPBUG,20
+Moves = STRUGGLEBUG,SUPERSONIC,RECOVER,INFESTATION
+#-------------------------------
+[BIRDKEEPER,Clara]
+LoseText = "Luckily even fainted Pokemon can use Fly."
+Pokemon = DUCKLETT,19
+Moves = BUBBLEBEAM,WINGATTACK,ICYWIND,WATERSPORT
+Pokemon = TRUMBEAK,19
+Moves = PLUCK,ROCKSMASH,GROWL,ROCKBLAST
+#-------------------------------
+[LASS,Michelle]
+LoseText = "My poor Pokemon!"
+Pokemon = SWIRLIX,19
+Moves = DRAININGKISS,SWEETSCENT,CHARM,ROUND
+Pokemon = PIPLUP,20
+Moves = BUBBLEBEAM,PECK,CHARM,POUND
+#-------------------------------
+[AROMALADY,Magda]
+LoseText = "I can only smell defeat now."
+Pokemon = ROSELIA,21
+Moves = MAGICALLEAF,TOXICSPIKES,GROWTH,MEGADRAIN
 #-------------------------------
