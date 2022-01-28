@@ -133,10 +133,24 @@ Moves = BITE,AQUAJET,TACKLE,TAILWHIP
 #-------------------------------
 [PSYCHIC,SARAH]
 LoseText = "My premonition was correct..."
-Pokemon = NATU,16
+Pokemon = NATU,17
 Moves = CONFUSERAY,PECK,LEER,UTURN
-Pokemon = SOLOSIS,16
+Pokemon = SOLOSIS,17
 Moves = CHARM,PSYBEAM,PROTECT,ASTONISH
 Pokemon = HATENNA,17
 Moves = CONFUSION,DISARMINGVOICE,LIFEDEW,THUNDERWAVE
+#-------------------------------
+[BUGCATCHER,Noel]
+LoseText = "I have to train more."
+Pokemon = SIZZLIPEDE,18
+Moves = FLAMEWHEEL,BITE,SMOKESCREEN,WRAP
+Pokemon = VEMONAT,19
+Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
+#-------------------------------
+[,Noel]
+LoseText = "I have to train more."
+Pokemon = SIZZLIPEDE,18
+Moves = FLAMEWHEEL,BITE,SMOKESCREEN,WRAP
+Pokemon = VEMONAT,19
+Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
 #-------------------------------
