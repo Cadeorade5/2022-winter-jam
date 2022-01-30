@@ -157,12 +157,12 @@ module QuestModule
     :QuestDescription => "Tea and biscuits, anyone?",
     :RewardString => "Food, glorious food!"
   }
-#########################################################################
-# Start of in game quests
-# Main story quests will be in bold and blue
-# Completed quests will be in green
-#########################################################################
 
+  #########################################################################
+  # Start of in game quests
+  # Main story quests will be in bold and blue
+  # Completed quests will be in green
+  #########################################################################
   Quest13 = {
     :ID => "13",
     :Name => "Investigate Canora Forest & Grab Supplies",

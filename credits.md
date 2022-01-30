@@ -36,6 +36,11 @@ Young-Dante
 ### "Pokémon SM/USUM Characters and Trainers OW Sprites in Gen III Style"
 Droid779
 
+### "Overworld Shadows EX" v1.0.1
+Golisopod User
+Marin 
+WolfPP
+
 ### "Modern Quest System + UI"
 ThatWelshOne_
 mej71

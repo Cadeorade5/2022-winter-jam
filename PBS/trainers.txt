@@ -131,7 +131,7 @@ Moves = SPLASH,TACKLE
 Pokemon = BASCULIN,16
 Moves = BITE,AQUAJET,TACKLE,TAILWHIP
 #-------------------------------
-[PSYCHIC,SARAH]
+[PSYCHIC_F,SARAH]
 LoseText = "My premonition was correct..."
 Pokemon = NATU,17
 Moves = CONFUSERAY,PECK,LEER,UTURN
@@ -144,10 +144,10 @@ Moves = CONFUSION,DISARMINGVOICE,LIFEDEW,THUNDERWAVE
 LoseText = "I have to train more."
 Pokemon = SIZZLIPEDE,18
 Moves = FLAMEWHEEL,BITE,SMOKESCREEN,WRAP
-Pokemon = VEMONAT,19
+Pokemon = VENONAT,19
 Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
 #-------------------------------
-[POKEMONRANGER,Josh]
+[POKEMONRANGER_M,Josh]
 LoseText = "Stay safe!"
 Pokemon = CUBONE,18
 Moves = HEADBUTT,TAILWHIP,BULLDOZE,GROWL
