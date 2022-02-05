@@ -179,4 +179,14 @@ module QuestModule
     :RewardString => "nil"
   }
 
+  Quest14 = {
+    :ID => "14",
+    :Name => "Show Ashley a Water Type",
+    :QuestGiver => "Ashley",
+    :Stage1 => "Catch a Water Type and show it to Ashley.",
+    :Location1 => "Pashen City",
+    :QuestDescription => "Catch a Water Type Pokémon and show it to Ashley so she can see it play in the fountain.",
+    :RewardString => "nil"
+  }
+
 end
