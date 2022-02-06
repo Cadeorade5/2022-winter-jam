@@ -8,7 +8,7 @@ WildVictoryME = Battle victory wild.ogg
 TrainerVictoryME = Battle victory trainer.ogg
 SurfBGM = Surfing.mid
 BicycleBGM = Bicycle.mid
-PlayerA = Trainer_Oak,Trainer_Oak,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_fish_offset
+PlayerA = Trainer_Oak,Trainer_Oak,boy_bike,boy_surf,Trainer_Oak,boy_surf,boy_fish_offset,boy_fish_offset
 PlayerB = POKEMONTRAINER_Leaf,trainer_POKEMONTRAINER_Leaf,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,girl_fish_offset
 #-------------------------------
 [001]
@@ -227,8 +227,10 @@ SnapEdges = true
 [043]
 # Pashen City
 Outdoor = true
+ShowArea = true
 Bicycle = true
 SnapEdges = true
+BattleBack = city
 #-------------------------------
 [044]
 # Route 6
@@ -265,6 +267,7 @@ Environment = Rock
 Outdoor = true
 Bicycle = true
 SnapEdges = true
+BattleBack = field
 #-------------------------------
 [049]
 # Rock Cave
@@ -422,9 +425,15 @@ BattleBack = city
 Outdoor = true
 Bicycle = true
 SnapEdges = true
+BattleBack = forest
 #-------------------------------
 [077]
 # Canora Pass
 Outdoor = true
 Bicycle = true
 SnapEdges = true
+#-------------------------------
+[079]
+# Pokémon Center
+Outdoor = false
+HealingSpot = 43,25,44
