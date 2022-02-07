@@ -817,3 +817,5 @@
 796,TR97,TR97,TR97s,4,10000,"The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect.",6,0,0,PSYCHICFANGS
 797,TR98,TR98,TR98s,4,6000,"The user slams into the target using a full-force blast of water. May also lower the target's Defense stat.",6,0,0,LIQUIDATION
 798,TR99,TR99,TR99s,4,6000,"The user attacks by slamming its body into the target. Damages more the higher the user's Defense.",6,0,0,BODYPRESS
+799,EXPALL,Exp. Share,Exp. Shares,8,0,"The Experience Share is currently turned ON.",2,0,6
+800,EXPALLOFF,Exp. Share,Exp. Shares,8,0,"The Experience Share is currently turned OFF.",2,0,6

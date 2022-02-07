@@ -165,7 +165,7 @@ module QuestModule
   #########################################################################
   Quest13 = {
     :ID => "13",
-    :Name => "Investigate Canora Forest & Grab Supplies",
+    :Name => "Investigate Canora Forest",
     :QuestGiver => "Ricardo",
     :Stage1 => "Explore Canora Forest.",
     :Stage2 => "Examine the Pangoro and Flapple.",
@@ -183,9 +183,9 @@ module QuestModule
     :ID => "14",
     :Name => "Show Ashley a Water Type",
     :QuestGiver => "Ashley",
-    :Stage1 => "Catch a Water Type and show it to Ashley.",
+    :Stage1 => "Catch a Water Type for Ashley.",
     :Location1 => "Pashen City",
-    :QuestDescription => "Catch a Water Type Pokémon and show it to Ashley so she can see it play in the fountain.",
+    :QuestDescription => "Catch a Water Type Pokémon and show it to Ashley.",
     :RewardString => "nil"
   }
 

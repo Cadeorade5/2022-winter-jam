@@ -2,9 +2,9 @@
 #-------------------------------
 [000]
 Home = 3,7,5,8
-WildBattleBGM = Battle wild.mid
+WildBattleBGM = wildPokemon.ogg
 TrainerBattleBGM = Battle trainer.mid
-WildVictoryME = Battle victory wild.ogg
+WildVictoryME = captureSuccess.ogg
 TrainerVictoryME = Battle victory trainer.ogg
 SurfBGM = Surfing.mid
 BicycleBGM = Bicycle.mid

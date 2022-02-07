@@ -6,6 +6,15 @@ FlamingFalcon
 Haunted Ditto
 Topher
 
+### Music
+Intro - Kalos Power Plant from Pokémon X & Y
+Pokémon Center - Pokémon Center (Night) from Pokémon Diamond and Pearl, Looped by ENLS's Pre-Looped Music Library
+Pashen City - Skyloft Orchestrated Cover from The Legend of Zelda: Skyward Sword, Arranged by ClefferNotes
+Canora Pass - Route 34 from Pokémon Hear Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
+Wild Pokémon - Wild Pokémon from Pokémon Ranger: Guardian Signs
+Wild Pokémon Defeated - Capture Success! from Pokémon Ranger: Guardian Signs
+Canora Forest - Foggy Forest from Pokémon Mystery Dungeon: Explorers of Sky
+
 ### Tiles
 Ekat
 Vurtax
@@ -36,6 +45,11 @@ Young-Dante
 
 ### "Pokémon SM/USUM Characters and Trainers OW Sprites in Gen III Style"
 Droid779
+
+### "Voltseon's Pause Menu" v1.7
+Voltseon
+Golisopod User
+ENLS
 
 ### "Overworld Shadows EX" v1.0.1
 Golisopod User
