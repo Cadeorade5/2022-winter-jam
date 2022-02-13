@@ -3,9 +3,9 @@
 [000]
 Home = 3,7,5,8
 WildBattleBGM = wildPokemon.ogg
-TrainerBattleBGM = Battle trainer.mid
+TrainerBattleBGM = battleMusic.ogg
 WildVictoryME = captureSuccess.ogg
-TrainerVictoryME = Battle victory trainer.ogg
+TrainerVictoryME = trainerVictory.ogg
 SurfBGM = Surfing.mid
 BicycleBGM = Bicycle.mid
 PlayerA = Trainer_Oak,Trainer_Oak,boy_bike,boy_surf,Trainer_Oak,boy_surf,boy_fish_offset,boy_fish_offset

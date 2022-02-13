@@ -13,6 +13,8 @@ Pashen City - Skyloft Orchestrated Cover from The Legend of Zelda: Skyward Sword
 Canora Pass - Route 34 from Pokémon Hear Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
 Wild Pokémon - Wild Pokémon from Pokémon Ranger: Guardian Signs
 Wild Pokémon Defeated - Capture Success! from Pokémon Ranger: Guardian Signs
+Trainer Battle - Shake Me Baby from Prinny 2: Dawn of Operation Panties, Dood!
+Trainer Battle Won - Victory! (Trainer Battle) from Pokémon Heart Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
 Canora Forest - Foggy Forest from Pokémon Mystery Dungeon: Explorers of Sky
 
 ### Tiles
