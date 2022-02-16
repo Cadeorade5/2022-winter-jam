@@ -168,14 +168,14 @@ Pokemon = BLIPBUG,20
 Moves = STRUGGLEBUG,SUPERSONIC,RECOVER,INFESTATION
 #-------------------------------
 [BIRDKEEPER,Clara]
-LoseText = "Luckily even fainted Pokemon can use Fly."
+LoseText = "Luckily even fainted Pokémon can use Fly."
 Pokemon = DUCKLETT,19
 Moves = BUBBLEBEAM,WINGATTACK,ICYWIND,WATERSPORT
 Pokemon = TRUMBEAK,19
 Moves = PLUCK,ROCKSMASH,GROWL,ROCKBLAST
 #-------------------------------
 [LASS,Michelle]
-LoseText = "My poor Pokemon!"
+LoseText = "My poor Pokémon!"
 Pokemon = SWIRLIX,19
 Moves = DRAININGKISS,SWEETSCENT,CHARM,ROUND
 Pokemon = PIPLUP,20
