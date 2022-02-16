@@ -171,14 +171,14 @@ Land,21
 #-------------------------------
 [043] # Pashen City
 Land,21
-    20,PIDOVE,14,16
-    20,SENTRET,14,16
-    15,POOCHYENA,16,16
-    15,SKITTY,14,16
-    10,TIMBURR,14,16
-    10,SKIDDO,14,16
-     5,KLEFKI,14,16
-     5,MIMEJR,14,16
+    20,PIDOVE,15,16
+    20,SENTRET,15,16
+    15,POOCHYENA,16,17
+    15,SKITTY,15,16
+    10,TIMBURR,15,17
+    10,SKIDDO,15,16
+     5,KLEFKI,15,16
+     5,MIMEJR,15,16
 #-------------------------------
 [044] # Route 6
 Land,21
@@ -198,18 +198,18 @@ RockSmash,50
 #-------------------------------
 [048] # Canora Pass
 Land,21
-    20,LEDYBA,14,17
-    20,ODDISH,14,16
-    15,WOOPER,14,16
-    15,BUNNELBY,15,16
-    10,DROWZEE,14,16
+    22,LEDYBA,15,16
+    22,ODDISH,15,16
+    16,WOOPER,15,16
+    15,BUNNELBY,15,17
+    10,DROWZEE,15,16
     10,MARILL,15,17
-    10,BIBAREL,15,16
+    5,BIBAREL,15,17
 SuperRod
-    30,MAGIKARP,14,17
+    30,MAGIKARP,15,17
     30,ARROKUDA,15,16
-    20,GOLDEEN,15,16
-    15,POLIWAG,14,16
+    20,GOLDEEN,15,17
+    15,POLIWAG,15,16
     5,CORPHISH,15,16
 #-------------------------------
 [049] # Rock Cave
@@ -332,29 +332,30 @@ Land,21
 #-------------------------------
 [076] # Canora Forest
 Land,21
-    25,VENONAT,15,17
-    20,COMBEE,15,17
-    12,TEDDIURSA,15,17
-    12,YANMA,15,17
-    10,PANCHAM,15,17
-    10,APPLIN,15,17
-    10,FARFETCHD_1,15,17
-    1,MUNCHLAX,15,17
+    22,VENONAT,16,17
+    20,COMBEE,16,17
+    12,TEDDIURSA,16,18
+    12,YANMA,16,17
+    10,PANCHAM,16,17
+    10,STUNKY,16,17
+    8,FARFETCHD_1,16,18
+    5,APPLIN,16,17
+    1,MUNCHLAX,16,19
 #-------------------------------
 [077] # Canora Pass
 Land,21
-    20,LEDYBA,15,18
-    20,HOPPIP,15,17
-    15,WOOPER,15,18
-    15,BUNNELBY,15,17
-    10,DROWZEE,15,17
-    10,DEERLING,15,17
-    5,LUXIO,15,17
-    5,MARILL,15,18
+    20,LEDYBA,16,18
+    20,HOPPIP,16,18
+    15,WOOPER,16,18
+    15,BUNNELBY,16,18
+    10,DROWZEE,16,18
+    10,DEERLING,16,18
+    5,LUXIO,16,18
+    5,MARILL,16,18
 SuperRod
-    30,MAGIKARP,15,17
-    30,LOTAD,15,18
-    20,GOLDEEN,15,17
-    15,CHEWTLE,15,18
-    5,CORPHISH,15,17
+    30,MAGIKARP,16,18
+    30,LOTAD,16,18
+    20,GOLDEEN,16,18
+    15,CHEWTLE,16,18
+    5,CORPHISH,16,18
 #-------------------------------
