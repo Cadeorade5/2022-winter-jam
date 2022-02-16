@@ -119,70 +119,70 @@ Pokemon = BLASTOISE,63
 #-------------------------------
 [PICNICKER,Lena]
 LoseText = "Maybe you could beat that rampaging Pokémon."
-Pokemon = PONYTA,16
+Pokemon = PONYTA,17
 Moves = FLAMECHARGE,TAILWHIP,GROWL,TACKLE
-Pokemon = SANDSHREW,17
+Pokemon = SANDSHREW,18
 Moves = ROLLOUT,DEFENSECURL,POISONSTING,FURYCUTTER
 #-------------------------------
 [FISHERMAN,Jorge]
 LoseText = "Fish still are the best!"
 Pokemon = MAGIKARP,20
 Moves = SPLASH,TACKLE
-Pokemon = BASCULIN,16
+Pokemon = BASCULIN,17
 Moves = BITE,AQUAJET,TACKLE,TAILWHIP
 #-------------------------------
 [PSYCHIC_F,Sarah]
 LoseText = "My premonition was incorrect..."
-Pokemon = NATU,17
+Pokemon = NATU,18
 Moves = CONFUSERAY,PECK,LEER,UTURN
 Pokemon = SOLOSIS,17
 Moves = CHARM,PSYBEAM,PROTECT,ASTONISH
-Pokemon = HATENNA,17
+Pokemon = HATENNA,18
 Moves = CONFUSION,DISARMINGVOICE,LIFEDEW,THUNDERWAVE
 #-------------------------------
 [BUGCATCHER,Noel]
 LoseText = "I have to train more."
 Pokemon = SIZZLIPEDE,18
 Moves = FLAMEWHEEL,BITE,SMOKESCREEN,WRAP
-Pokemon = VENONAT,19
+Pokemon = VENONAT,20
 Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
 #-------------------------------
 [POKEMONRANGER_M,Josh]
 LoseText = "Stay safe!"
-Pokemon = CUBONE,18
+Pokemon = CUBONE,19
 Moves = HEADBUTT,TAILWHIP,BULLDOZE,GROWL
-Pokemon = PANSAGE,18
+Pokemon = PANSAGE,19
 Moves = LEECHSEED,LICK,FURYSWIPES,VINEWHIP
 Pokemon = ELECTRIKE,19
 Moves = QUICKATTACK,SHOCKWAVE,LEER,THUNDERWAVE
 #-------------------------------
 [BUGCATCHER,Timothy]
 LoseText = "Maybe I should evolve my bugs."
-Pokemon = CATERPIE,20
+Pokemon = CATERPIE,22
 Moves = TACKLE,STRINGSHOT,BUGBITE
-Pokemon = WURMPLE,20
+Pokemon = WURMPLE,22
 Moves = TACKLE,STRINGSHOT,POISONSTING,BUGBITE
-Pokemon = GRUBBIN,19
+Pokemon = GRUBBIN,22
 Moves = BITE,BUGBITE,VISEGRIP,STRINGSHOT
-Pokemon = BLIPBUG,20
+Pokemon = BLIPBUG,22
 Moves = STRUGGLEBUG,SUPERSONIC,RECOVER,INFESTATION
 #-------------------------------
 [BIRDKEEPER,Clara]
 LoseText = "Luckily even fainted Pokémon can use Fly."
-Pokemon = DUCKLETT,19
+Pokemon = DUCKLETT,20
 Moves = BUBBLEBEAM,WINGATTACK,ICYWIND,WATERSPORT
-Pokemon = TRUMBEAK,19
+Pokemon = TRUMBEAK,20
 Moves = PLUCK,ROCKSMASH,GROWL,ROCKBLAST
 #-------------------------------
 [LASS,Michelle]
 LoseText = "My poor Pokémon!"
-Pokemon = SWIRLIX,19
+Pokemon = SWIRLIX,20
 Moves = DRAININGKISS,SWEETSCENT,CHARM,ROUND
-Pokemon = PIPLUP,20
+Pokemon = PIPLUP,21
 Moves = BUBBLEBEAM,PECK,CHARM,POUND
 #-------------------------------
 [AROMALADY,Magda]
 LoseText = "I can only smell defeat now."
-Pokemon = ROSELIA,21
+Pokemon = ROSELIA,22
 Moves = MAGICALLEAF,TOXICSPIKES,GROWTH,MEGADRAIN
 #-------------------------------
