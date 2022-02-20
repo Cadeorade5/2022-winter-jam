@@ -16,6 +16,7 @@ Wild Pokémon Defeated - Capture Success! from Pokémon Ranger: Guardian Signs
 Trainer Battle - Shake Me Baby from Prinny 2: Dawn of Operation Panties, Dood!
 Trainer Battle Won - Victory! (Trainer Battle) from Pokémon Heart Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
 Canora Forest - Foggy Forest from Pokémon Mystery Dungeon: Explorers of Sky
+Sheho Town - Cherrygrove City from Pokémon Heart Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
 
 ### Tiles
 Ekat
@@ -128,3 +129,9 @@ and everyone else who helped out
 
 RPG Maker XP by:
 Enterbrain
+
+## Pokémon
+Pokémon is owned by:
+The Pokémon Company
+Nintendo
+Affiliated with Game Freak
