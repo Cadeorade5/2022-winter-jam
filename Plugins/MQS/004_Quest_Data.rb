@@ -179,11 +179,11 @@ module QuestModule
 
   Quest14 = {
     :ID => "14",
-    :Name => "Show Ashley a Water Type",
+    :Name => "Show Ashley a Wooper",
     :QuestGiver => "Ashley",
-    :Stage1 => "Catch a Water Type for Ashley.",
+    :Stage1 => "Catch a Wooper for Ashley.",
     :Location1 => "Pashen City",
-    :QuestDescription => "Catch a Water Type Pokémon and show it to Ashley.",
+    :QuestDescription => "Catch a Wooper and show it to Ashley.",
     :RewardString => "nil"
   }
 
