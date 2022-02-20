@@ -168,13 +168,11 @@ module QuestModule
     :Name => "Investigate Canora Forest",
     :QuestGiver => "Ricardo",
     :Stage1 => "Explore Canora Forest.",
-    :Stage2 => "Examine the Pangoro and Flapple.",
-    :Stage3 => "Grab lab supplies.",
-    :Stage4 => "Return to Pashen City and report to Ricardo.",
+    :Stage2 => "Grab lab supplies.",
+    :Stage3 => "Return to Pashen City and report to Ricardo.",
     :Location1 => "Canora Forest",
-    :Location2 => "Canora Forest",
-    :Location3 => "Sheho Town",
-    :Location4 => "Pashen City",
+    :Location2 => "Sheho Town",
+    :Location3 => "Pashen City",
     :QuestDescription => "Explore Canora Forest to study the Pokémon there. After that, grab some lab supplies from Sheho Town.",
     :RewardString => "nil"
   }

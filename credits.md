@@ -33,6 +33,11 @@ dragoon
 
 ### Emote Animation Graphics
 Thundaga
+Pokémon Splice Team
+
+### Title Screen
+KokinhoKokeiro
+Luka S.J.
 
 ### "RSE NPC Overworlds"
 Nintendo
