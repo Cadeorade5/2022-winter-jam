@@ -167,7 +167,7 @@ Moves = BITE,BUGBITE,VISEGRIP,STRINGSHOT
 Pokemon = BLIPBUG,22
 Moves = STRUGGLEBUG,SUPERSONIC,RECOVER,INFESTATION
 #-------------------------------
-[BIRDKEEPER,Clara]
+[BIRDKEEPER,Chris]
 LoseText = "Luckily even fainted Pokémon can use Fly."
 Pokemon = DUCKLETT,20
 Moves = BUBBLEBEAM,WINGATTACK,ICYWIND,WATERSPORT
