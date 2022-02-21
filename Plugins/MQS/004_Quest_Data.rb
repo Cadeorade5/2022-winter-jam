@@ -169,7 +169,7 @@ module QuestModule
     :QuestGiver => "Ricardo",
     :Stage1 => "Explore Canora Forest.",
     :Stage2 => "Grab lab supplies.",
-    :Stage3 => "Return to Pashen City and report to Ricardo.",
+    :Stage3 => "Report to Ricardo.",
     :Location1 => "Canora Forest",
     :Location2 => "Sheho Town",
     :Location3 => "Pashen City",

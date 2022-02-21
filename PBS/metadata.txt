@@ -168,7 +168,7 @@ SnapEdges = true
 #-------------------------------
 [033]
 # Sheho Town
-SnapEdges = true
+SnapEdges = false
 #-------------------------------
 [034]
 # Ice Cave
@@ -432,8 +432,15 @@ BattleBack = forest
 Outdoor = true
 Bicycle = true
 SnapEdges = true
+BattleBack = field
 #-------------------------------
 [079]
 # Pokémon Center
 Outdoor = false
 HealingSpot = 43,25,44
+#-------------------------------
+[081]
+# Canora Forest Opening
+Outdoor = true
+SnapEdges = true
+BattleBack = forest
