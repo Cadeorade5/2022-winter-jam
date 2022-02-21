@@ -186,14 +186,14 @@ LoseText = "I can only smell defeat now."
 Pokemon = ROSELIA,22
 Moves = MAGICALLEAF,VENOSHOCK,GROWTH,MEGADRAIN
 #-------------------------------
-[BIRDKEEPER,Chris]
+[BIRDKEEPER,Chris,1]
 LoseText = "Luckily even fainted Pokémon can use Fly."
 Pokemon = DUCKLETT,21
 Moves = BUBBLEBEAM,WINGATTACK,ICYWIND,FEATHERDANCE
 Pokemon = TRUMBEAK,21
 Moves = PLUCK,ROCKSMASH,ROOST,ROCKBLAST
 #-------------------------------
-[BUGCATCHER,Timothy]
+[BUGCATCHER,Timothy,1]
 LoseText = "Maybe I should evolve my bugs."
 Pokemon = METAPOD,21
 Moves = TACKLE,STRINGSHOT,BUGBITE,HARDEN
@@ -206,7 +206,7 @@ Moves = TACKLE,HARDEN,POISONSTING,BUGBITE
 Pokemon = GRUBBIN,20
 Moves = BITE,BUGBITE,VISEGRIP,STRINGSHOT
 #-------------------------------
-[POKEMONRANGER_M,Josh]
+[POKEMONRANGER_M,Josh,1]
 LoseText = "Stay safe!"
 Pokemon = CUBONE,20
 Moves = HEADBUTT,TAILWHIP,BULLDOZE,BRICKBREAK
@@ -215,14 +215,14 @@ Moves = LEECHSEED,BITE,FURYSWIPES,VINEWHIP
 Pokemon = ELECTRIKE,21
 Moves = QUICKATTACK,SHOCKWAVE,BITE,THUNDERWAVE
 #-------------------------------
-[BUGCATCHER,Noel]
+[BUGCATCHER,Noel,1]
 LoseText = "I have to train more."
 Pokemon = SIZZLIPEDE,20
 Moves = FLAMEWHEEL,BITE,SMOKESCREEN,BUGBITE
 Pokemon = VENONAT,22
 Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
 #-------------------------------
-[PSYCHIC_F,Sarah]
+[PSYCHIC_F,Sarah,1]
 LoseText = "My premonition was incorrect..."
 Pokemon = NATU,20
 Moves = CONFUSERAY,PECK,NIGHTSHADE,UTURN
@@ -231,7 +231,7 @@ Moves = CHARM,RECOVER,PROTECT,PSYSHOCK
 Pokemon = HATENNA,22
 Moves = PSYBEAM,DISARMINGVOICE,LIFEDEW,THUNDERWAVE
 #-------------------------------
-[PICNICKER,Lena]
+[PICNICKER,Lena,1]
 LoseText = "Maybe you could beat that rampaging Pokémon."
 Pokemon = PONYTA,21
 Moves = FLAMECHARGE,TAILWHIP,AGILITY,TACKLE
