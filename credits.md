@@ -17,6 +17,7 @@ Trainer Battle - Shake Me Baby from Prinny 2: Dawn of Operation Panties, Dood!
 Trainer Battle Won - Victory! (Trainer Battle) from Pokémon Heart Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
 Canora Forest - Foggy Forest from Pokémon Mystery Dungeon: Explorers of Sky
 Sheho Town - Cherrygrove City from Pokémon Heart Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
+Moen Research Lab - Pewter City from Pokémon Heart Gold and Soul Silver, Looped by ENLS's Pre-Looped Music Library
 
 ### Tiles
 Ekat
@@ -39,8 +40,14 @@ Pokémon Splice Team
 KokinhoKokeiro
 Luka S.J.
 
-### "Simple 'Dark Mode' Battle UI" v2.0
-Zygoat
+### Battle UI
+mustafa505
+Haunted Ditto
+Aveontrainer
+Luna Madellena
+DeadHeroAlistair
+The Acanthite Project
+Cope​
 
 ### "RSE NPC Overworlds"
 Nintendo
