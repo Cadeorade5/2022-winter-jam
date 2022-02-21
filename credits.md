@@ -39,6 +39,9 @@ Pokémon Splice Team
 KokinhoKokeiro
 Luka S.J.
 
+### "Simple 'Dark Mode' Battle UI" v2.0
+Zygoat
+
 ### "RSE NPC Overworlds"
 Nintendo
 GameFreak
