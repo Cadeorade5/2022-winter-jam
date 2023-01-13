@@ -1,6 +1,8 @@
 Team:
 Cadeorade5
 TheLuxDiablo
+BattleLegendBlue
+JeloPowder
 
 ========================================================================
 
@@ -159,6 +161,38 @@ Pnick0509, Superjustinbros (Graphics)
 FL (Markings Script)
 Shashu-Greninja (Modifying the Graphics and the Script)
 
+Improved Item Text
+Maruno
+Lucidious89
+
+========================================================================
+TILESET CREDITS
+
+Ekat
+Heartless Dragoon
+Morlockhater
+Nemu
+Ross Hawkins
+Pokemon Dawn
+Slimshady
+Thedeadheroalistar
+The-Red-Ex
+Vurtax
+Zein
+Redblueyellow
+Fabnt
+War8
+Dragoon
+Silverdeoxys563
+SteamyJ
+Anonalpaca
+Pokémon Rejuvenation
+Pokemon Halcyon Resource Pack
+Puggsoy
+Aveontrainer
+Idillio
+Dasani
+Shyin
 ========================================================================
 
 Pokémon Essentials was created by:

@@ -1,0 +1,716 @@
+# This installation is part of the Improved Item Text plugin for Pokemon Essentials v20.1
+#-------------------------------
+[HONEY]
+EditOnly =
+PortionName = jar of Honey
+PortionNamePlural = jars of Honey
+#-------------------------------
+[STARDUST]
+EditOnly =
+PortionName = bag of Stardust
+PortionNamePlural = bags of Stardust
+#-------------------------------
+[RELICCOPPER]
+EditOnly =
+PortionName = Relic Copper coin
+PortionNamePlural = Relic Copper coins
+#-------------------------------
+[RELICSILVER]
+EditOnly =
+PortionName = Relic Silver coin
+PortionNamePlural = Relic Silver coins
+#-------------------------------
+[RELICGOLD]
+EditOnly =
+PortionName = Relic Gold coin
+PortionNamePlural = Relic Gold coins
+#-------------------------------
+[GROWTHMULCH]
+EditOnly =
+PortionName = bag of Growth Mulch
+PortionNamePlural = bags of Growth Mulch
+#-------------------------------
+[DAMPMULCH]
+EditOnly =
+PortionName = bag of Damp Mulch
+PortionNamePlural = bags of Damp Mulch
+#-------------------------------
+[STABLEMULCH]
+EditOnly =
+PortionName = bag of Stable Mulch
+PortionNamePlural = bags of Stable Mulch
+#-------------------------------
+[GOOEYMULCH]
+EditOnly =
+PortionName = bag of Gooey Mulch
+PortionNamePlural = bags of Gooey Mulch
+#-------------------------------
+[SHOALSALT]
+EditOnly =
+PortionName = pile of Shoal Salt
+PortionNamePlural = piles of Shoal Salt
+#-------------------------------
+[REDNECTAR]
+EditOnly =
+PortionName = jar of Red Nectar
+PortionNamePlural = jars of Red Nectar
+#-------------------------------
+[YELLOWNECTAR]
+EditOnly =
+PortionName = jar of Yellow Nectar
+PortionNamePlural = jars of Yellow Nectar
+#-------------------------------
+[PINKNECTAR]
+EditOnly =
+PortionName = jar of Pink Nectar
+PortionNamePlural = jars of Pink Nectar
+#-------------------------------
+[PURPLENECTAR]
+EditOnly =
+PortionName = jar of Purple Nectar
+PortionNamePlural = jars of Purple Nectar
+#-------------------------------
+[BRIGHTPOWDER]
+EditOnly =
+PortionName = bag of Bright Powder
+PortionNamePlural = bags of Bright Powder
+#-------------------------------
+[SAFETYGOGGLES]
+EditOnly =
+PortionName = pair of Safety Goggles
+PortionNamePlural = pairs of Safety Goggles
+#-------------------------------
+[PROTECTIVEPADS]
+EditOnly =
+PortionName = set of Protective Pads
+PortionNamePlural = sets of Protective Pads
+#-------------------------------
+[HEAVYDUTYBOOTS]
+EditOnly =
+PortionName = pair of Heavy-Duty Boots
+PortionNamePlural = pairs of Heavy-Duty Boots
+#-------------------------------
+[CHOICESPECS]
+EditOnly =
+PortionName = pair of Choice Specs
+PortionNamePlural = pairs of Choice Specs
+#-------------------------------
+[LIGHTCLAY]
+EditOnly =
+PortionName = lump of Light Clay
+PortionNamePlural = lumps of Light Clay
+#-------------------------------
+[BLACKSLUDGE]
+EditOnly =
+PortionName = blob of Black Sludge
+PortionNamePlural = blobs of Black Sludge
+#-------------------------------
+[LEFTOVERS]
+EditOnly =
+PortionName = serving of Leftovers
+PortionNamePlural = servings of Leftovers
+#-------------------------------
+[LUMINOUSMOSS]
+EditOnly =
+PortionName = clump of Luminous Moss
+PortionNamePlural = clumps of Luminous Moss
+#-------------------------------
+[THROATSPRAY]
+EditOnly =
+PortionName = bottle of Throat Spray
+PortionNamePlural = bottles of Throat Spray
+#-------------------------------
+[ROOMSERVICE]
+EditOnly =
+PortionName = voucher for Room Service
+PortionNamePlural = vouchers for Room Service
+#-------------------------------
+[WISEGLASSES]
+EditOnly =
+PortionName = pair of Wise Glasses
+PortionNamePlural = pairs of Wise Glasses
+#-------------------------------
+[LAXINCENSE]
+EditOnly =
+PortionName = jar of Lax Incense
+PortionNamePlural = jars of Lax Incense
+#-------------------------------
+[FULLINCENSE]
+EditOnly =
+PortionName = jar of Full Incense
+PortionNamePlural = jars of Full Incense
+#-------------------------------
+[LUCKINCENSE]
+EditOnly =
+PortionName = jar of Luck Incense
+PortionNamePlural = jars of Luck Incense
+#-------------------------------
+[PUREINCENSE]
+EditOnly =
+PortionName = jar of Pure Incense
+PortionNamePlural = jars of Pure Incense
+#-------------------------------
+[SEAINCENSE]
+EditOnly =
+PortionName = jar of Sea Incense
+PortionNamePlural = jars of Sea Incense
+#-------------------------------
+[WAVEINCENSE]
+EditOnly =
+PortionName = jar of Wave Incense
+PortionNamePlural = jars of Wave Incense
+#-------------------------------
+[ROSEINCENSE]
+EditOnly =
+PortionName = jar of Rose Incense
+PortionNamePlural = jars of Rose Incense
+#-------------------------------
+[ODDINCENSE]
+EditOnly =
+PortionName = jar of Odd Incense
+PortionNamePlural = jars of Odd Incense
+#-------------------------------
+[ROCKINCENSE]
+EditOnly =
+PortionName = jar of Rock Incense
+PortionNamePlural = jars of Rock Incense
+#-------------------------------
+[CHARCOAL]
+EditOnly =
+PortionName = piece of Charcoal
+PortionNamePlural = pieces of Charcoal
+#-------------------------------
+[NEVERMELTICE]
+EditOnly =
+PortionName = piece of Never-Melt Ice
+PortionNamePlural = pieces of Never-Melt Ice
+#-------------------------------
+[SOFTSAND]
+EditOnly =
+PortionName = bag of Soft Sand
+PortionNamePlural = bags of Soft Sand
+#-------------------------------
+[SILVERPOWDER]
+EditOnly =
+PortionName = pile of Silver Powder
+PortionNamePlural = piles of Silver Powder
+#-------------------------------
+[BLACKGLASSES]
+EditOnly =
+PortionName = pair of Black Glasses
+PortionNamePlural = pairs of Black Glasses
+#-------------------------------
+[METALPOWDER]
+EditOnly =
+PortionName = bag of Metal Powder
+PortionNamePlural = bags of Metal Powder
+#-------------------------------
+[QUICKPOWDER]
+EditOnly =
+PortionName = bag of Quick Powder
+PortionNamePlural = bags of Quick Powder
+#-------------------------------
+[REAPERCLOTH]
+EditOnly =
+PortionName = scrap of Reaper Cloth
+PortionNamePlural = scraps of Reaper Cloth
+#-------------------------------
+[WHIPPEDDREAM]
+EditOnly =
+PortionName = dollop of Whipped Dream
+PortionNamePlural = dollops of Whipped Dream
+#-------------------------------
+[SACREDASH]
+EditOnly =
+PortionName = bag of Sacred Ash
+PortionNamePlural = bags of Sacred Ash
+#-------------------------------
+[PEWTERCRUNCHIES]
+EditOnly =
+PortionName = bag of Pewter Crunchies
+PortionNamePlural = bags of Pewter Crunchies
+#-------------------------------
+[BERRYJUICE]
+EditOnly =
+PortionName = cup of Berry Juice
+PortionNamePlural = cups of Berry Juice
+#-------------------------------
+[FRESHWATER]
+EditOnly =
+PortionName = bottle of Fresh Water
+PortionNamePlural = bottles of Fresh Water
+#-------------------------------
+[SODAPOP]
+EditOnly =
+PortionName = bottle of Soda Pop
+PortionNamePlural = bottles of Soda Pop
+#-------------------------------
+[LEMONADE]
+EditOnly =
+PortionName = can of Lemonade
+PortionNamePlural = cans of Lemonade
+#-------------------------------
+[MOOMOOMILK]
+EditOnly =
+PortionName = bottle of Moomoo Milk
+PortionNamePlural = bottles of Moomoo Milk
+#-------------------------------
+[ENERGYPOWDER]
+EditOnly =
+PortionName = dose of Energy Powder
+PortionNamePlural = doses of Energy Powder
+#-------------------------------
+[HEALPOWDER]
+EditOnly =
+PortionName = dose of Heal Powder
+PortionNamePlural = doses of Heal Powder
+#-------------------------------
+[MAXHONEY]
+EditOnly =
+PortionName = comb of Max Honey
+PortionNamePlural = combs of Max Honey
+#-------------------------------
+[PPUP]
+EditOnly =
+PortionName = bottle of PP Up
+PortionNamePlural = bottles of PP Up
+#-------------------------------
+[PPMAX]
+EditOnly =
+PortionName = bottle of PP Max
+PortionNamePlural = bottles of PP Max
+#-------------------------------
+[HPUP]
+EditOnly =
+PortionName = bottle of HP Up
+PortionNamePlural = bottles of HP Up
+#-------------------------------
+[PROTEIN]
+EditOnly =
+PortionName = bottle of Protein
+PortionNamePlural = bottles of Protein
+#-------------------------------
+[IRON]
+EditOnly =
+PortionName = bottle of Iron
+PortionNamePlural = bottles of Iron
+#-------------------------------
+[CALCIUM]
+EditOnly =
+PortionName = bottle of Calcium
+PortionNamePlural = bottles of Calcium
+#-------------------------------
+[ZINC]
+EditOnly =
+PortionName = bottle of Zinc
+PortionNamePlural = bottles of Zinc
+#-------------------------------
+[CARBOS]
+EditOnly =
+PortionName = bottle of Carbos
+PortionNamePlural = bottles of Carbos
+#-------------------------------
+[LONELYMINT]
+EditOnly =
+PortionName = sprig of Lonely Mint
+PortionNamePlural = sprigs of Lonely Mint
+#-------------------------------
+[ADAMANTMINT]
+EditOnly =
+PortionName = sprig of Adamant Mint
+PortionNamePlural = sprigs of Adamant Mint
+#-------------------------------
+[NAUGHTYMINT]
+EditOnly =
+PortionName = sprig of Naughty Mint
+PortionNamePlural = sprigs of Naughty Mint
+#-------------------------------
+[BRAVEMINT]
+EditOnly =
+PortionName = sprig of Brave Mint
+PortionNamePlural = sprigs of Brave Mint
+#-------------------------------
+[BOLDMINT]
+EditOnly =
+PortionName = sprig of Bold Mint
+PortionNamePlural = sprigs of Bold Mint
+#-------------------------------
+[IMPISHMINT]
+EditOnly =
+PortionName = sprig of Impish Mint
+PortionNamePlural = sprigs of Impish Mint
+#-------------------------------
+[LAXMINT]
+EditOnly =
+PortionName = sprig of Lax Mint
+PortionNamePlural = sprigs of Lax Mint
+#-------------------------------
+[RELAXEDMINT]
+EditOnly =
+PortionName = sprig of Relaxed Mint
+PortionNamePlural = sprigs of Relaxed Mint
+#-------------------------------
+[MODESTMINT]
+EditOnly =
+PortionName = sprig of Modest Mint
+PortionNamePlural = sprigs of Modest Mint
+#-------------------------------
+[MILDMINT]
+EditOnly =
+PortionName = sprig of Mild Mint
+PortionNamePlural = sprigs of Mild Mint
+#-------------------------------
+[RASHMINT]
+EditOnly =
+PortionName = sprig of Rash Mint
+PortionNamePlural = sprigs of Rash Mint
+#-------------------------------
+[QUIETMINT]
+EditOnly =
+PortionName = sprig of Quiet Mint
+PortionNamePlural = sprigs of Quiet Mint
+#-------------------------------
+[CALMMINT]
+EditOnly =
+PortionName = sprig of Calm Mint
+PortionNamePlural = sprigs of Calm Mint
+#-------------------------------
+[GENTLEMINT]
+EditOnly =
+PortionName = sprig of Gentle Mint
+PortionNamePlural = sprigs of Gentle Mint
+#-------------------------------
+[CAREFULMINT]
+EditOnly =
+PortionName = sprig of Careful Mint
+PortionNamePlural = sprigs of Careful Mint
+#-------------------------------
+[SASSYMINT]
+EditOnly =
+PortionName = sprig of Sassy Mint
+PortionNamePlural = sprigs of Sassy Mint
+#-------------------------------
+[TIMIDMINT]
+EditOnly =
+PortionName = sprig of Timid Mint
+PortionNamePlural = sprigs of Timid Mint
+#-------------------------------
+[HASTYMINT]
+EditOnly =
+PortionName = sprig of Hasty Mint
+PortionNamePlural = sprigs of Hasty Mint
+#-------------------------------
+[JOLLYMINT]
+EditOnly =
+PortionName = sprig of Jolly Mint
+PortionNamePlural = sprigs of Jolly Mint
+#-------------------------------
+[NAIVEMINT]
+EditOnly =
+PortionName = sprig of Naive Mint
+PortionNamePlural = sprigs of Naive Mint
+#-------------------------------
+[SERIOUSMINT]
+EditOnly =
+PortionName = sprig of Serious Mint
+PortionNamePlural = sprigs of Serious Mint
+#-------------------------------
+[GRASSMAIL]
+EditOnly =
+PortionName = piece of Grass Mail
+PortionNamePlural = pieces of Grass Mail
+#-------------------------------
+[FLAMEMAIL]
+EditOnly =
+PortionName = piece of Flame Mail
+PortionNamePlural = pieces of Flame Mail
+#-------------------------------
+[BUBBLEMAIL]
+EditOnly =
+PortionName = piece of Bubble Mail
+PortionNamePlural = pieces of Bubble Mail
+#-------------------------------
+[BLOOMMAIL]
+EditOnly =
+PortionName = piece of Bloom Mail
+PortionNamePlural = pieces of Bloom Mail
+#-------------------------------
+[TUNNELMAIL]
+EditOnly =
+PortionName = piece of Tunnel Mail
+PortionNamePlural = pieces of Tunnel Mail
+#-------------------------------
+[STEELMAIL]
+EditOnly =
+PortionName = piece of Steel Mail
+PortionNamePlural = pieces of Steel Mail
+#-------------------------------
+[HEARTMAIL]
+EditOnly =
+PortionName = piece of Heart Mail
+PortionNamePlural = pieces of Heart Mail
+#-------------------------------
+[SNOWMAIL]
+EditOnly =
+PortionName = piece of Snow Mail
+PortionNamePlural = pieces of Snow Mail
+#-------------------------------
+[SPACEMAIL]
+EditOnly =
+PortionName = piece of Space Mail
+PortionNamePlural = pieces of Space Mail
+#-------------------------------
+[AIRMAIL]
+EditOnly =
+PortionName = piece of Air Mail
+PortionNamePlural = pieces of Air Mail
+#-------------------------------
+[MOSAICMAIL]
+EditOnly =
+PortionName = piece of Mosaic Mail
+PortionNamePlural = pieces of Mosaic Mail
+#-------------------------------
+[BRICKMAIL]
+EditOnly =
+PortionName = piece of Brick Mail
+PortionNamePlural = pieces of Brick Mail
+#-------------------------------
+[MAXMUSHROOMS]
+EditOnly =
+PortionName = cluster of Max Mushrooms
+PortionNamePlural = clusters of Max Mushrooms
+#-------------------------------
+[REINSOFUNITY]
+EditOnly =
+PortionName = set of Reins of Unity
+PortionNamePlural = sets of Reins of Unity
+#-------------------------------
+[REINSOFUNITYUSED]
+EditOnly =
+PortionName = set of Reins of Unity
+PortionNamePlural = sets of Reins of Unity
+#-------------------------------
+[NORMALIUMZ]
+EditOnly =
+PortionName = piece of Normalium Z
+PortionNamePlural = pieces of Normalium Z
+#-------------------------------
+[FIGHTINIUMZ]
+EditOnly =
+PortionName = piece of Fightinium Z
+PortionNamePlural = pieces of Fightinium Z
+#-------------------------------
+[FLYINIUMZ]
+EditOnly =
+PortionName = piece of Flyinium Z
+PortionNamePlural = pieces of Flyinium Z
+#-------------------------------
+[POISONIUMZ]
+EditOnly =
+PortionName = piece of Poisonium Z
+PortionNamePlural = pieces of Poisonium Z
+#-------------------------------
+[GROUNDIUMZ]
+EditOnly =
+PortionName = piece of Groundium Z
+PortionNamePlural = pieces of Groundium Z
+#-------------------------------
+[ROCKIUMZ]
+EditOnly =
+PortionName = piece of Rockium Z
+PortionNamePlural = pieces of Rockium Z
+#-------------------------------
+[BUGINIUMZ]
+EditOnly =
+PortionName = piece of Buginium Z
+PortionNamePlural = pieces of Buginium Z
+#-------------------------------
+[GHOSTIUMZ]
+EditOnly =
+PortionName = piece of Ghostium Z
+PortionNamePlural = pieces of Ghostium Z
+#-------------------------------
+[STEELIUMZ]
+EditOnly =
+PortionName = piece of Steelium Z
+PortionNamePlural = pieces of Steelium Z
+#-------------------------------
+[FIRIUMZ]
+EditOnly =
+PortionName = piece of Firium Z
+PortionNamePlural = pieces of Firium Z
+#-------------------------------
+[WATERIUMZ]
+EditOnly =
+PortionName = piece of Waterium Z
+PortionNamePlural = pieces of Waterium Z
+#-------------------------------
+[GRASSIUMZ]
+EditOnly =
+PortionName = piece of Grassium Z
+PortionNamePlural = pieces of Grassium Z
+#-------------------------------
+[ELECTRIUMZ]
+EditOnly =
+PortionName = piece of Electrium Z
+PortionNamePlural = pieces of Electrium Z
+#-------------------------------
+[PSYCHIUMZ]
+EditOnly =
+PortionName = piece of Psychium Z
+PortionNamePlural = pieces of Psychium Z
+#-------------------------------
+[ICIUMZ]
+EditOnly =
+PortionName = piece of Icium Z
+PortionNamePlural = pieces of Icium Z
+#-------------------------------
+[DRAGONIUMZ]
+EditOnly =
+PortionName = piece of Dragonium Z
+PortionNamePlural = pieces of Dragonium Z
+#-------------------------------
+[DARKINIUMZ]
+EditOnly =
+PortionName = piece of Darkinium Z
+PortionNamePlural = pieces of Darkinium Z
+#-------------------------------
+[FAIRIUMZ]
+EditOnly =
+PortionName = piece of Fairium Z
+PortionNamePlural = pieces of Fairium Z
+#-------------------------------
+[PIKANIUMZ]
+EditOnly =
+PortionName = piece of Pikanium Z
+PortionNamePlural = pieces of Pikanium Z
+#-------------------------------
+[PIKASHUNIUMZ]
+EditOnly =
+PortionName = piece of Pikashunium Z
+PortionNamePlural = pieces of Pikashunium Z
+#-------------------------------
+[ALORAICHIUMZ]
+EditOnly =
+PortionName = piece of Aloraichium Z
+PortionNamePlural = pieces of Aloraichium Z
+#-------------------------------
+[EEVIUMZ]
+EditOnly =
+PortionName = piece of Eevium Z
+PortionNamePlural = pieces of Eevium Z
+#-------------------------------
+[SNORLIUMZ]
+EditOnly =
+PortionName = piece of Snorlium Z
+PortionNamePlural = pieces of Snorlium Z
+#-------------------------------
+[MEWNIUMZ]
+EditOnly =
+PortionName = piece of Mewnium Z
+PortionNamePlural = pieces of Mewnium Z
+#-------------------------------
+[DECIDIUMZ]
+EditOnly =
+PortionName = piece of Decidium Z
+PortionNamePlural = pieces of Decidium Z
+#-------------------------------
+[INCINIUMZ]
+EditOnly =
+PortionName = piece of Incinium Z
+PortionNamePlural = pieces of Incinium Z
+#-------------------------------
+[PRIMARIUMZ]
+EditOnly =
+PortionName = piece of Primarium Z
+PortionNamePlural = pieces of Primarium Z
+#-------------------------------
+[LYCANIUMZ]
+EditOnly =
+PortionName = piece of Lycanium Z
+PortionNamePlural = pieces of Lycanium Z
+#-------------------------------
+[MIMIKIUMZ]
+EditOnly =
+PortionName = piece of Mimikium Z
+PortionNamePlural = pieces of Mimikium Z
+#-------------------------------
+[KOMMONIUMZ]
+EditOnly =
+PortionName = piece of Kommonium Z
+PortionNamePlural = pieces of Kommonium Z
+#-------------------------------
+[TAPUNIUMZ]
+EditOnly =
+PortionName = piece of Tapunium Z
+PortionNamePlural = pieces of Tapunium Z
+#-------------------------------
+[SOLGANIUMZ]
+EditOnly =
+PortionName = piece of Solganium Z
+PortionNamePlural = pieces of Solganium Z
+#-------------------------------
+[LUNALIUMZ]
+EditOnly =
+PortionName = piece of Lunalium Z
+PortionNamePlural = pieces of Lunalium Z
+#-------------------------------
+[MARSHADIUMZ]
+EditOnly =
+PortionName = piece of Marshadium Z
+PortionNamePlural = pieces of Marshadium Z
+#-------------------------------
+[ULTRANECROZIUMZ]
+EditOnly =
+PortionName = piece of Ultranecrozium Z
+PortionNamePlural = pieces of Ultranecrozium Z
+#-------------------------------
+[ARMORITEORE]
+EditOnly =
+PortionName = piece of Armorite Ore
+PortionNamePlural = pieces of Armorite Ore
+#-------------------------------
+[DYNITEORE]
+EditOnly =
+PortionName = piece of Dynite Ore
+PortionNamePlural = pieces of Dynite Ore
+#-------------------------------
+[AUSPICIOUSARMOR]
+EditOnly =
+PortionName = set of Auspicious Armor
+PortionNamePlural = sets of Auspicious Armor
+#-------------------------------
+[MALICIOUSARMOR]
+EditOnly =
+PortionName = set of Malicious Armor
+PortionNamePlural = sets of Malicious Armor
+#-------------------------------
+[BOOSTERENERGY]
+EditOnly =
+PortionName = capsule of Booster Energy
+PortionNamePlural = capsules of Booster Energy
+#-------------------------------
+[BERSERKGENE]
+EditOnly =
+PortionName = Berserk Gene sample
+PortionNamePlural = Berserk Gene samples
+#-------------------------------
+[MAXSOUP]
+EditOnly =
+PortionName = serving of Max Soup
+PortionNamePlural = servings of Max Soup
+#-------------------------------
+[MAXEGGS]
+EditOnly =
+PortionName = clutch of Max Eggs
+PortionNamePlural = clutches of Max Eggs
+#-------------------------------
+[MAXSCALES]
+EditOnly =
+PortionName = set of Max Scales
+PortionNamePlural = sets of Max Scales
+#-------------------------------
+[MAXPLUMAGE]
+EditOnly =
+PortionName = bundle of Max Plumage
+PortionNamePlural = bundles of Max Plumage
