@@ -165,6 +165,13 @@ Improved Item Text
 Maruno
 Lucidious89
 
+Multi Auto Save
+http404error
+
+Updated Quicksave
+Marin
+CrystalStar
+
 ========================================================================
 TILESET CREDITS
 

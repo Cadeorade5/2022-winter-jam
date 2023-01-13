@@ -1,0 +1,5 @@
+Name       = Location Signposts
+Version    = 1.0.0
+Essentials = 20.1
+Website    = https://reliccastle.com/resources/385/
+Credits    = PurpleZaffre, LostSoulsDev / carmaniac, Golisopod User
