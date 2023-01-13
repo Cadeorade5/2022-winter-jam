@@ -399,3 +399,8 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[POKEMONTRAINER_protag]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
