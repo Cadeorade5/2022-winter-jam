@@ -375,6 +375,7 @@ module Settings
 
   # Available speech frames. These are graphic files in "Graphics/Windowskins/".
   SPEECH_WINDOWSKINS = [
+    "speech em",
     "speech hgss 1",
     "speech hgss 2",
     "speech hgss 3",

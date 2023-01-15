@@ -1,0 +1,8 @@
+#===============================================================================
+# * Constants for animated Pokémon sprites
+# * To change Pokémon Backsprite position in battle, select and press
+# *   CTRL + Shift + F the following line of code:
+# *   sprite.y += (metrics[MetricBattlerPlayerY][species] || 0)*2
+#===============================================================================
+FRONTSPRITE_SCALE = 2
+BACKSPRITE_SCALE = 3
