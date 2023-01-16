@@ -160,4 +160,22 @@ module QuestModule
     :RewardString => "Food, glorious food!"
   }
 
+  #######################################################
+  # Start of Quests in Lotus
+  #######################################################
+
+  Quest13 = {
+    :ID => "13",
+    :Name => "Explore the Tayba Ruins",
+    :QuestGiver => "Professor Rosewood",
+    :Stage1 => "Head home to get some rest.",
+    :Stage2 => "Meet Ashley at the lab.",
+    :Stage3 => "Meet Ashley at the Tabya Ruins.",
+    :Location1 => "Tayba Town",
+    :Location2 => "Rosewood Pokémon Lab",
+    :Location3 => "Tayba Ruins",
+    :QuestDescription => "Head to the Tayba Ruins to explore and find the Berserk Pokémon",
+    :RewardString => "nil"
+  }
+
 end

@@ -155,6 +155,7 @@ MapSize = 2,1101
 Name = Tayba Town
 Outdoor = true
 ShowArea = true
+Weather = Sandstorm,50
 #-------------------------------
 [034]   # Ice Cave
 Name = Route 3
@@ -214,10 +215,11 @@ Name = Ula Canyon
 Outdoor = true
 ShowArea = true
 #-------------------------------
-[043]   # Train Station
+[043]   # Tayba Town Train Station
 Name = Train Station
 Outdoor = true
 ShowArea = true
+Weather = Sandstorm,50
 #-------------------------------
 [044]   # Route 6
 Name = Route 6
