@@ -38,9 +38,10 @@ class RfDialoguePortrait
         @align = align
         @sprite = Sprite.new(viewport)
         @sprite.bitmap = Bitmap.new("Graphics/Portraits/#{portrait}")
+        @sprite.ox = @sprite.bitmap.width * align
         @sprite.oy = @sprite.bitmap.height
         @sprite.x = align > 0 ? Graphics.width + 128 : -128
-        @sprite.y = Graphics.height
+        @sprite.y = Graphics.height - 80
         @sprite.opacity = 0
         @outline = @sprite.create_outline_sprite
         @outline.opacity = 0
@@ -83,7 +84,7 @@ class RfDialoguePortrait
             @sprite.x -= 16
             @outline.x -= 16
             @state = :active if @sprite.x <= Graphics.width
-        else 
+        else
             @sprite.x += 16
             @outline.x += 16
             @state = :active if @sprite.x >= 0
@@ -102,7 +103,7 @@ class RfDialoguePortrait
             @sprite.x += 16
             @outline.x += 16
             dispose if @sprite.x >= Graphics.width + 128
-        else 
+        else
             @sprite.x -= 16
             @outline.x -= 16
             dispose if @sprite.x <= -128
