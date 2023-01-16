@@ -187,6 +187,10 @@ Boonzeet
 Item Find
 Boonzeet
 
+Party UI
+Voltseon
+ENLS
+
 ========================================================================
 TILESET CREDITS
 
