@@ -174,7 +174,7 @@ module QuestModule
     :Location1 => "Tayba Town",
     :Location2 => "Rosewood Pokémon Lab",
     :Location3 => "Tayba Ruins",
-    :QuestDescription => "Head to the Tayba Ruins to explore and find the Berserk Pokémon",
+    :QuestDescription => "Head to the Tayba Ruins to explore and find the Berserk Pokémon.",
     :RewardString => "nil"
   }
 
