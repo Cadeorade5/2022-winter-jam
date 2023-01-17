@@ -416,7 +416,7 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
-[078]   # TEST MAP
-Name = TEST MAP
+[078]   # Tayba Academy
+Name = Tayba Academy
 Outdoor = true
 ShowArea = true
