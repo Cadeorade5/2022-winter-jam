@@ -215,8 +215,8 @@ Name = Ula Canyon
 Outdoor = true
 ShowArea = true
 #-------------------------------
-[043]   # Tayba Town Train Station
-Name = Train Station
+[043]   # Tayba Station
+Name = Tayba Station
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,50
@@ -250,6 +250,9 @@ MapPosition = 0,15,10
 BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
+#-------------------------------
+[048]   # Tayba Station
+Name = Tayba Station
 #-------------------------------
 [049]   # Rock Cave 1F
 Name = Route 7
@@ -412,3 +415,8 @@ Name = Tiall Region
 Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[078]   # TEST MAP
+Name = TEST MAP
+Outdoor = true
+ShowArea = true
