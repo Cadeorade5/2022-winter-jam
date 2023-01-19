@@ -427,14 +427,8 @@ ShowArea = false
 [079]   # Rosewood Lab
 Name = Rosewood Lab
 #-------------------------------
-[081]   # Cinematic Intro
-Name = Cinematic Intro
+[080]   # Tayba Ruins
+Name = Tayba Ruins
 Outdoor = true
-#-------------------------------
-[082]   # Cinematic Intro 2
-Name = Cinematic Intro 2
-Outdoor = true
-#-------------------------------
-[083]   # Cinematic Intro 3
-Name = Cinematic Intro 3
-Outdoor = true
+ShowArea = true
+Weather = Sandstorm,50
