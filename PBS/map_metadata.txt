@@ -416,7 +416,13 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[077]   # Ashley's House
+Name = Ashley's House
+#-------------------------------
 [078]   # Tayba Academy
 Name = Tayba Academy
-Outdoor = true
-ShowArea = true
+Outdoor = false
+ShowArea = false
+#-------------------------------
+[079]   # Rosewood Lab
+Name = Rosewood Lab
