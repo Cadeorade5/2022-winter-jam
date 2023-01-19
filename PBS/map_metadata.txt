@@ -426,3 +426,9 @@ ShowArea = false
 #-------------------------------
 [079]   # Rosewood Lab
 Name = Rosewood Lab
+#-------------------------------
+[080]   # Tayba Ruins
+Name = Tayba Ruins
+Outdoor = true
+ShowArea = true
+Weather = Sandstorm,50
