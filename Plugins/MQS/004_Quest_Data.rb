@@ -171,9 +171,13 @@ module QuestModule
     :Stage1 => "Head home to get some rest.",
     :Stage2 => "Meet Ashley at the lab.",
     :Stage3 => "Meet Ashley at the Tabya Ruins.",
+    :Stage4 => "Explore the Ruins with Ashley.",
+    :Stage5 => "Report back to Professor Rosewood.",
     :Location1 => "Tayba Town",
     :Location2 => "Rosewood Pokémon Lab",
     :Location3 => "Tayba Ruins",
+    :Location4 => "Tayba Ruins",
+    :Location5 => "Rosewood Pokémon Lab",
     :QuestDescription => "Head to the Tayba Ruins to explore and find the Berserk Pokémon.",
     :RewardString => "nil"
   }
