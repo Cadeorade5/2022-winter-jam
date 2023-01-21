@@ -1,11 +1,11 @@
 module QuestModule
-  
+
   # You don't actually need to add any information, but the respective fields in the UI will be blank or "???"
   # I included this here mostly as an example of what not to do, but also to show it's a thing that exists
   Quest0 = {
-  
+
   }
-  
+
   # Here's the simplest example of a single-stage quest with everything specified
   Quest1 = {
     :ID => "1",
@@ -16,7 +16,7 @@ module QuestModule
     :QuestDescription => "Some wild Pokémon stole a little boy's favourite toy. Find those troublemakers and help him get it back.",
     :RewardString => "Something shiny!"
   }
-  
+
   # Here's an extension of the above that includes multiple stages
   Quest2 = {
     :ID => "2",
@@ -33,7 +33,7 @@ module QuestModule
     :QuestDescription => "Some wild Pokémon stole a little boy's favourite toy. Find those troublemakers and help him get it back.",
     :RewardString => "Something shiny!"
   }
-  
+
   # Here's an example of a quest with lots of stages that also doesn't have a stage location defined for every stage
   Quest3 = {
     :ID => "3",
@@ -57,7 +57,7 @@ module QuestModule
     :QuestDescription => "Isn't the alphabet longer than this?",
     :RewardString => "Chicken soup!"
   }
-  
+
   # Here's an example of not defining the quest giver and reward text
   Quest4 = {
     :ID => "4",
@@ -70,7 +70,7 @@ module QuestModule
     :QuestDescription => "You crash landed on an alien planet. There are other humans here and they look hungry...",
     :RewardString => "nil"
   }
-  
+
   # Other random examples you can look at if you want to fill out the UI and check out the page scrolling
   Quest5 = {
     :ID => "5",
@@ -80,7 +80,7 @@ module QuestModule
     :QuestDescription => "Barry told me that he saw something cool at Acuity Lake and that I should go see. I hope it's not another trick.",
     :RewardString => "You win nothing for giving in to peer pressure."
   }
-  
+
   Quest6 = {
     :ID => "6",
     :Name => "The journey begins",
@@ -92,7 +92,7 @@ module QuestModule
     :QuestDescription => "The Professor has entrusted me with an important delivery for the Viridian City Pokémon Mart. This is my first task, best not mess it up!",
     :RewardString => "nil"
   }
-  
+
   Quest7 = {
     :ID => "7",
     :Name => "Close encounters of the... first kind?",
@@ -102,7 +102,7 @@ module QuestModule
     :QuestDescription => "A sudden burst of light, and then...! What are you?",
     :RewardString => "A possible probing."
   }
-  
+
   Quest8 = {
     :ID => "8",
     :Name => "These boots were made for walking",
@@ -113,7 +113,7 @@ module QuestModule
     :Location2 => "Celadon City Sewers",
     :QuestDescription => "A musician was feeling down because he thinks no one likes his music. I should help him drum up some business."
   }
-  
+
   Quest9 = {
     :ID => "9",
     :Name => "Got any grapes?",
@@ -124,7 +124,7 @@ module QuestModule
     :QuestDescription => "Let's try to revive old memes by listening to this funny song about a duck wanting grapes.",
     :RewardString => "A loss of braincells. Hurray!"
   }
-  
+
   Quest10 = {
     :ID => "10",
     :Name => "Singing in the rain",
@@ -135,7 +135,7 @@ module QuestModule
     :QuestDescription => "Whatever you want it to be.",
     :RewardString => "Wet clothes."
   }
-  
+
   Quest11 = {
     :ID => "11",
     :Name => "When is this list going to end?",
@@ -147,7 +147,7 @@ module QuestModule
     :QuestDescription => "I'm losing my sanity.",
     :RewardString => "nil"
   }
-  
+
   Quest12 = {
     :ID => "12",
     :Name => "The laaast melon",
@@ -179,6 +179,18 @@ module QuestModule
     :Location4 => "Tayba Ruins",
     :Location5 => "Rosewood Pokémon Lab",
     :QuestDescription => "Head to the Tayba Ruins to explore and find the Berserk Pokémon.",
+    :RewardString => "nil"
+  }
+
+  Quest14 = {
+    :ID => "14",
+    :Name => "The Missing Maractus",
+    :QuestGiver => "Ace Trainer",
+    :Stage1 => "Locate Maractus in Tayba Town.",
+    :Stage2 => "Talk to the Ace Trainer again.",
+    :Location1 => "Tayba Town",
+    :Location2 => "Tayba Station",
+    :QuestDescription => "Find the lost Maractus and bring it back to the Ace Trainer.",
     :RewardString => "nil"
   }
 
