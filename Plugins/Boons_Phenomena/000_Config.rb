@@ -17,7 +17,7 @@
 module PhenomenonConfig
   Frequency = 450 # Chance for phenomenon to generate on step. Between 350-600.
   Timer = 2800 # How many frames to wait before phenomenon disappears
-  Switch = 56 # Switch that when ON enables phenomena
+  Switch = 65 # Switch that when ON enables phenomena
   BattleMusic = "" # Custom music to play during Phenomenon
   Pokemon = {
     :shiny => true, # 4x chance of shininess
@@ -30,10 +30,10 @@ module PhenomenonConfig
   }
   Types = {
     # Animation ID, sound, animation height (1: above player/ 0: below)
-    :PhenomenonGrass => [57, "phenomenon_grass", 1],
-    :PhenomenonWater => [58, "phenomenon_water", 0],
-    :PhenomenonCave => [59, "phenomenon_cave", 1],
-    :PhenomenonBird => [60, "phenomenon_bird", 0],
+    :PhenomenonGrass => [25, "phenomenon_grass", 1],
+    :PhenomenonWater => [26, "phenomenon_water", 0],
+    :PhenomenonCave => [27, "phenomenon_cave", 1],
+    :PhenomenonBird => [28, "phenomenon_bird", 0],
   }
   # Tiles that will not show Phenomena, on a per-map basis. Blocks whole x columns or y rows, or individual tiles
   # Array(A..B) will create an array including both numbers and everything inbetween

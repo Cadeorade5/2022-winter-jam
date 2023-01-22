@@ -214,6 +214,8 @@ MapSize = 1,111
 Name = Ula Canyon
 Outdoor = true
 ShowArea = true
+BattleBack = desert
+Environment = Sand
 #-------------------------------
 [043]   # Tayba Station
 Name = Tayba Station
