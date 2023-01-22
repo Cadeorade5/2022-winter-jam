@@ -2,7 +2,7 @@ Team:
 Cadeorade5
 TheLuxDiablo
 BattleLegendBlue
-JeloPowder
+Chase (Pyvetal)
 
 ========================================================================
 
@@ -198,8 +198,27 @@ Mashirosakura
 Pokémon SM/USUM Characters and Trainers OW Sprites in Gen III Style
 Droid779
 
-Unown Text
-PunishedFelix
+Marin's Scripting Utilities
+Marin
+
+Marin's Map Exporter
+Marin
+
+Legends Arceus Move Relearner
+Kotaro
+IndianAnimator
+
+Luka's Scripting Utilities
+Luka S.J.
+
+Advanced Map Transfers
+Luka S.J.
+
+Save File Calls
+TechSkylander1518
+
+Low HP BGM
+TechSkylander1518
 
 ========================================================================
 TILESET CREDITS
@@ -231,6 +250,15 @@ Dasani
 Shyin
 J-Treecko252
 Emeiry
+========================================================================
+Music Credits
+
+From ENLS' Pre-Looped Music Library
+Accumula Town (Black/White)
+Route 19 (Black 2/White 2)
+Route 6 (Black/White)
+Nuvema Town (Black/White)
+Cold Storage (Black/White)
 ========================================================================
 
 Pokémon Essentials was created by:
