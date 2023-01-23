@@ -434,3 +434,4 @@ Name = Tayba Ruins
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,50
+BattleBack = Desert
