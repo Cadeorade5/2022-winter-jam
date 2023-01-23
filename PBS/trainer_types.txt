@@ -404,3 +404,8 @@ VictoryBGM = Battle victory leader
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
+#-------------------------------
+[ASHLEY]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60

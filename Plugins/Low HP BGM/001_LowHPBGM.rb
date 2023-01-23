@@ -1,5 +1,5 @@
 module Settings
-  LOW_HP_BGM = "Bicycle"
+  LOW_HP_BGM = "LowHP"
 end
 
 class Game_Temp
@@ -26,11 +26,11 @@ class Battle::Scene::PokemonDataBox < Sprite
           next if !b || (b.index%2)==1
           low +=1 if b.hp<b.totalhp/4
         end
-        pbBGMPlay($game_temp.battle_theme) if low == 0 && $game_system.playing_bgm.name==Settings::LOW_HP_BGM          
+        pbBGMPlay($game_temp.battle_theme) if low == 0 && $game_system.playing_bgm.name==Settings::LOW_HP_BGM
       end
     end
   end
-  
+
 
   alias oldupdateHPAnimation updateHPAnimation
   def updateHPAnimation
@@ -48,11 +48,11 @@ class Battle::Scene::PokemonDataBox < Sprite
           next if !b || (b.index%2)==1
           low +=1 if b.hp<b.totalhp/4
         end
-        pbBGMPlay($game_temp.battle_theme) if low == 0 && $game_system.playing_bgm.name==Settings::LOW_HP_BGM          
+        pbBGMPlay($game_temp.battle_theme) if low == 0 && $game_system.playing_bgm.name==Settings::LOW_HP_BGM
       end
     end
   end
-  
+
 end
 
 class Battle::Battler
@@ -67,5 +67,5 @@ class Battle::Battler
     end
     pbBGMPlay($game_temp.battle_theme) if low == 0 && $game_system.playing_bgm.name==Settings::LOW_HP_BGM
   end
-  
+
 end
