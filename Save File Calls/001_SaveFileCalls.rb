@@ -3,7 +3,7 @@ def pbSaveFile(name,ver=20)
     when 20, 19
       location = File.join("C:/Users",System.user_name,"AppData/Roaming",name)
       return false unless File.directory?(location)
-      file = File.join(location, 'Game.rxdata') || File.join(location, 'Game_0.rxdata')
+      file = File.join(location, ('Game_0.rxdata')
       return false unless File.file?(file)
       save_data = SaveData.get_data_from_file(file)
     when 18

@@ -409,3 +409,8 @@ BaseMoney = 60
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+#-------------------------------
+[ROUGHNECK]
+Name = Roughneck
+Gender = Male
+BaseMoney = 48

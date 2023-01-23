@@ -435,3 +435,20 @@ Outdoor = true
 ShowArea = true
 Weather = Sandstorm,50
 BattleBack = Desert
+#-------------------------------
+[087]   # Accumula Town
+Name = Accumula Town
+Name = 
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[088]   # Route 1
+Name = Route 1
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[089]   # Nuvema Town
+Name = Nuvema Town
+Name = 
+Outdoor = true
+ShowArea = true

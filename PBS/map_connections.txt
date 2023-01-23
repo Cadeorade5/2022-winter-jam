@@ -28,23 +28,27 @@
 31,South,32,23,North,0
 # Route 3 (31) - Ingido Plateau outside (35)
 31,West,0,35,East,10
+# Tayba Town (33) - Ula Canyon (42)
+33,South,0,42,North,0
+# Tayba Station (43) - Tayba Town (33)
+43,East,0,33,West,1
 # Ingido Plateau outside (35) - Route 4 (39)
 35,West,11,39,East,0
 # Route 5 (41) - Route 4 Cycling Road (40)
 41,North,0,40,South,0
 # Route 5 (41) - Route 6 Cycling Road (45)
 41,South,6,45,North,0
-# Route 7 (47) - Battle Frontier (52)
-47,East,8,52,West,0
-# Route 8 (69) - Safari Zone outside (66)
-69,North,0,66,South,10
-# Tayba Town (33) - Ula Canyon (42)
-33,South,0,42,North,0
 # Tayba Station (43) - Ula Canyon (42)
 43,East,37,42,West,0
 # Tayba Ruins (80) - Ula Canyon (42)
 80,North,0,42,South,0
-# Tayba Station (43) - Tayba Town (33)
-43,East,0,33,West,1
 # Tayba Ruins (80) - Tayba Station (43)
 80,West,0,43,East,106
+# Route 7 (47) - Battle Frontier (52)
+47,East,8,52,West,0
+# Route 8 (69) - Safari Zone outside (66)
+69,North,0,66,South,10
+# Route 1 (88) - Accumula Town (87)
+88,North,0,87,South,1
+# Nuvema Town (89) - Route 1 (88)
+89,North,3,88,South,0

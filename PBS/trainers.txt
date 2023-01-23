@@ -8,4 +8,12 @@ Pokemon = GIRAFARIG,13
 Pokemon = ROCKRUFF,15
 	Ability = VITALSPIRIT
 	Nature = JOLLY
-
+#-------------------------------
+[CAMPER,Jeremy]
+LoseText = Shorts can't protect me from losing!
+Pokemon = TAROUNTULA,15
+#-------------------------------
+[ROUGHNECK,Benny]
+LoseText = Fine, I guess you can share my sand pit.
+Pokemon = SANDILE,15
+Pokemon = HOUNDOUR,15
