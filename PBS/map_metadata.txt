@@ -156,6 +156,7 @@ Name = Tayba Town
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,50
+BattleBack = Desert
 #-------------------------------
 [034]   # Ice Cave
 Name = Route 3
