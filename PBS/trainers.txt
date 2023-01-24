@@ -17,3 +17,8 @@ Pokemon = TAROUNTULA,15
 LoseText = Fine, I guess you can share my sand pit.
 Pokemon = SANDILE,15
 Pokemon = HOUNDOUR,15
+#-------------------------------
+[GENTLEMAN,Reginald]
+LoseText = Perhaps the weather is too harsh for victory...
+Pokemon = VULLABY,15
+Pokemon = MANKEY,16
