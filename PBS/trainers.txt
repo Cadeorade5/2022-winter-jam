@@ -22,3 +22,47 @@ Pokemon = HOUNDOUR,15
 LoseText = Perhaps the weather is too harsh for victory...
 Pokemon = VULLABY,15
 Pokemon = MANKEY,16
+#-------------------------------
+[POKEMONBREEDER,Pamela]
+LoseText = Even authentically-bred Pokemon lose sometimes!
+Pokemon = SKORUPI,16
+Pokemon = SIZZLIPEDE,16
+#-------------------------------
+[SUPERNERD,Josh]
+LoseText = Can the algorithms calculate the nature of this loss?
+Pokemon = RUFFLET,16
+Pokemon = HERACROSS,16
+#-------------------------------
+[HIKER,Nathaniel]
+LoseText = I wanted to rhyme, but now I'm out of time!
+Pokemon = ORTHWORM,16
+#-------------------------------
+[ACETRAINER_M,Saul]
+LoseText = The pillars have mesmerized me...
+Pokemon = CHARCADET,17
+#-------------------------------
+[ACETRAINER_F,Goodman]
+LoseText = Dang it! I wanted to see you in the sand.
+Pokemon = BALTOY,17
+#-------------------------------
+[BIRDKEEPER,Michael]
+LoseText = Does Sigilyph count as a bird?
+Pokemon = SIGILYPH,17
+Pokemon = SPEAROW,17
+#-------------------------------
+[OFFICEGIRL,Hannah]
+LoseText = I hope I can find my way...
+Pokemon = KADABRA,17
+#-------------------------------
+[YOUNGSTER,James]
+LoseText = Hey, you! Yeah, you! How'd you win?
+Pokemon = SCRAGGY,18
+#-------------------------------
+[BEAUTY,Jessica]
+LoseText = Hey, you! Yeah, you! How'd you win?
+Pokemon = EEVEE,18
+#-------------------------------
+[BATTLEGIRL,Gretchen]
+LoseText = Hey, you! Yeah, you! How'd you win?
+Pokemon = MIENFOO,18
+Pokemon = MEDITITE,18
