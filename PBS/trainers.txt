@@ -50,7 +50,7 @@ LoseText = Does Sigilyph count as a bird?
 Pokemon = SIGILYPH,17
 Pokemon = SPEAROW,17
 #-------------------------------
-[OFFICEGIRL,Hannah]
+[OFFICELADY,Hannah]
 LoseText = I hope I can find my way...
 Pokemon = KADABRA,17
 #-------------------------------
@@ -59,10 +59,10 @@ LoseText = Hey, you! Yeah, you! How'd you win?
 Pokemon = SCRAGGY,18
 #-------------------------------
 [BEAUTY,Jessica]
-LoseText = Hey, you! Yeah, you! How'd you win?
+LoseText = No! Not my Eevee too!
 Pokemon = EEVEE,18
 #-------------------------------
 [BATTLEGIRL,Gretchen]
-LoseText = Hey, you! Yeah, you! How'd you win?
+LoseText = You braved the canyon and my Pokemon!
 Pokemon = MIENFOO,18
 Pokemon = MEDITITE,18
