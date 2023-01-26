@@ -7454,3 +7454,11 @@ NamePlural = Fairy Tera Shards
 Pocket = 1
 Price = 2000
 Description = On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters.
+#-------------------------------
+[EXPALL]
+Name = Exp. Share
+NamePlural = Exp. Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Description = A special device used to train Pokémon. All Pokémon in the party gain experience from battles when On.

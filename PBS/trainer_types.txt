@@ -163,6 +163,11 @@ Name = Black Belt
 Gender = Male
 BaseMoney = 32
 #-------------------------------
+[BATTLEGIRL]
+Name = Battle Girl
+Gender = Male
+BaseMoney = 32
+#-------------------------------
 [CRUSHGIRL]
 Name = Crush Girl
 Gender = Female
@@ -413,4 +418,19 @@ BaseMoney = 60
 [ROUGHNECK]
 Name = Roughneck
 Gender = Male
+BaseMoney = 48
+#-------------------------------
+[ACETRAINER_M]
+Name = Ace Trainer
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[ACETRAINER_F]
+Name = Ace Trainer
+Gender = Female
+BaseMoney = 48
+#-------------------------------
+[OFFICELADY]
+Name = Office Lady
+Gender = Female
 BaseMoney = 48
