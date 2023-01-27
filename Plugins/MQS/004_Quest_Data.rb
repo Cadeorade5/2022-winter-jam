@@ -204,4 +204,14 @@ module QuestModule
     :RewardString => "nil"
   }
 
+  Quest16 = {
+    :ID => "16",
+    :Name => "The Lively Larvesta",
+    :QuestGiver => "Lass",
+    :Stage1 => "Show the Youngster a Larvesta",
+    :Location1 => "Accumula Town",
+    :QuestDescription => "The Youngster in Accumula Town has never seen a Larvesta before. Show him a Larvesta for a reward.",
+    :RewardString => "nil"
+  }
+
 end
