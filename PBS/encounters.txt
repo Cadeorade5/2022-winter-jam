@@ -12,6 +12,10 @@ PhenomenonGrass,21
 	50,TRAPINCH,13,16
 	49,SILICOBRA,13,16
 	1,EEVEE,14,16
+PhenomenonCave,21
+	50,TRAPINCH,13,16
+	49,GRUBBIN,13,16
+	1,EEVEE,14,16
 #-------------------------------
 [080] # Tayba Ruins
 Land,21
@@ -25,3 +29,7 @@ PhenomenonGrass,21
 	50,UNOWN,15,18
 	49,LARVESTA,15,18
 	1,SPIRITOMB,16,18
+PhenomenonCave,21
+	50,HIPPOPOTAS,15,18
+	49,TRAPINCH,15,18
+	1,ABRA,16,18
