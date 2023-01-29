@@ -346,7 +346,7 @@ MenuHandlers.add(:options_menu, :menu_theme, {
   "order"       => 200,
   "type"        => NumberOption,
   "condition"   => proc { next CHANGE_THEME_IN_OPTIONS },
-  "parameters"  => 0..MENU_TEXTCOLOR.length,
+  "parameters"  => 1..MENU_TEXTCOLOR.length + 1,
   "description" => _INTL("Set pause menu theme."),
   "get_proc"    => proc { next $PokemonSystem.current_menu_theme },
   "set_proc"    => proc { |value, scene|

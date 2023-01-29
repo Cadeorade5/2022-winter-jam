@@ -116,7 +116,7 @@ class MenuEntryTrainer < MenuEntry
     }
   end
 
-  def selectable?; return true; end
+  def selectable?; return false; end
 end
 #-------------------------------------------------------------------------------
 # Entry for Save Screen
@@ -257,6 +257,26 @@ class MenuEntryQuit < MenuEntry
   end
 
   def selectable?; return (!pbInBugContest? && !pbInSafari?); end
+end
+
+#-------------------------------------------------------------------------------
+# Entry for opening the boxes
+#-------------------------------------------------------------------------------
+class MenuEntryBoxes < MenuEntry
+  def initialize
+    @icon = "menuPokegear"
+    @name = "Boxes"
+  end
+
+  def selected(menu)
+    pbFadeOutIn(99999) {
+      scene = PokemonStorageScene.new
+      screen = PokemonStorageScreen.new(scene, $PokemonStorage)
+      screen.pbStartScreen(0)
+    }
+  end
+
+  def selectable?; return (true); end
 end
 #-------------------------------------------------------------------------------
 # Entry for Encounter List screen by ThatWelshOne
