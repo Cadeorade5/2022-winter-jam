@@ -76,6 +76,15 @@ LoseText = The ruins emit an immense energy.
 Pokemon = UNOWN,18
 Pokemon = SIGILYPH,19
 #-------------------------------
+[HIKER,Malakai]
+LoseText = Whoa! You've got some cool Pokemon too!
+Pokemon = TRAPINCH,19
+#-------------------------------
+[PSYCHIC_M,Zakir]
+LoseText = Yes, you are more than prepared.
+Pokemon = BALTOY,19
+Pokemon = LARVESTA,19
+#-------------------------------
 [LASS,Jill]
 LoseText = I came all the way to see Professor Juniper!
 Pokemon = PANSEAR,22
