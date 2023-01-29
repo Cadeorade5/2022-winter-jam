@@ -66,3 +66,12 @@ Pokemon = EEVEE,18
 LoseText = You braved the canyon and my Pokemon!
 Pokemon = MIENFOO,18
 Pokemon = MEDITITE,18
+#-------------------------------
+[BURGLAR,Conner]
+LoseText = Hmph, I guess you can go...
+Pokemon = MURKROW,18
+#-------------------------------
+[PSYCHIC_F,Clarissa]
+LoseText = The ruins emit an immense energy.
+Pokemon = UNOWN,18
+Pokemon = SIGILYPH,19
