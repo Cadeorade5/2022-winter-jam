@@ -66,3 +66,13 @@ Pokemon = EEVEE,18
 LoseText = You braved the canyon and my Pokemon!
 Pokemon = MIENFOO,18
 Pokemon = MEDITITE,18
+#-------------------------------
+[LASS,Jill]
+LoseText = I came all the way to see Professor Juniper!
+Pokemon = PANSEAR,22
+Pokemon = WOOBAT,22
+#-------------------------------
+[YOUNGSTER,Shane]
+LoseText = The purpose of the journey is found in those that I meet!
+Pokemon = MINCCINO,22
+Pokemon = BLITZLE,22
