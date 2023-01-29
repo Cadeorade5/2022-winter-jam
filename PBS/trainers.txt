@@ -67,11 +67,12 @@ LoseText = You braved the canyon and my Pokemon!
 Pokemon = MIENFOO,18
 Pokemon = MEDITITE,18
 #-------------------------------
-[BURGLAR,Conner]
-LoseText = Hmph, I guess you can go...
-Pokemon = MURKROW,18
+[LASS,Jill]
+LoseText = I came all the way to see Professor Juniper!
+Pokemon = PANSEAR,22
+Pokemon = WOOBAT,22
 #-------------------------------
-[PSYCHIC_F,Clarissa]
-LoseText = The ruins emit an immense energy.
-Pokemon = UNOWN,18
-Pokemon = SIGILYPH,19
+[YOUNGSTER,Shane]
+LoseText = The purpose of the journey is found in those that I meet!
+Pokemon = MINCCINO,22
+Pokemon = BLITZLE,22
