@@ -437,6 +437,11 @@ ShowArea = true
 Weather = Sandstorm,50
 BattleBack = Desert
 #-------------------------------
+[084]   # Tayba Ruins
+Name = Tayba Ruins
+ShowArea = true
+BattleBack = Cave
+#-------------------------------
 [087]   # Accumula Town
 Name = Accumula Town
 Name = 
