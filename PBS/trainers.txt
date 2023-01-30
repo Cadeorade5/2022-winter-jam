@@ -104,3 +104,53 @@ Pokemon = WOOBAT,22
 LoseText = The purpose of the journey is found in those that I meet!
 Pokemon = MINCCINO,22
 Pokemon = BLITZLE,22
+#-------------------------------
+[FISHERMAN,Lydon]
+LoseText = I couldn't pull in the big one!
+Pokemon = BASCULIN,23
+Pokemon = BLITZLE,23
+#-------------------------------
+[SWIMMER2_F,Joyce]
+LoseText = You made a big splash!
+Pokemon = ALOMOMOLA,23
+#-------------------------------
+[SWIMMER2_M,Wright]
+LoseText = Jokes on you, that makes them stronger!
+Pokemon = BASCULIN,19
+Pokemon = BASCULIN,19
+Pokemon = BASCULIN,19
+Pokemon = BASCULIN,19
+#-------------------------------
+[SWIMMER2_M,Berke]
+LoseText = I'm all flopping around!
+Pokemon = FRILLISH,25
+Pokemon = PANPOUR,25
+#-------------------------------
+[SWIMMER2_F,Caroline]
+LoseText = You're swimming faster than me!
+Pokemon = DUCKLETT,25
+Pokemon = FRILLISH,25
+#-------------------------------
+[HIKER,Jeremiah]
+LoseText = I guess my days are numbered...
+Pokemon = ROGGENROLA,24
+Pokemon = DWEBBLE,24
+#-------------------------------
+[LASS,Kumiko]
+LoseText = I'm taking a few steps backwards.
+Pokemon = EMOLGA,24
+#-------------------------------
+[YOUNGSTER,Sam]
+LoseText = Just too good!
+Pokemon = COTTONEE,24
+#-------------------------------
+[ACETRAINER_M,Ray]
+LoseText = Quite the trainer you are!
+Pokemon = BASCULIN,24
+Pokemon = PANSAGE,24
+Pokemon = DARUMAKA,24
+#-------------------------------
+[BATTLEGIRL,Hillary]
+LoseText = I slipped on a banana.
+Pokemon = SCRAGGY,24
+Pokemon = TIMBURR,24
