@@ -39,6 +39,7 @@ BaseMoney = 32
 Name = Beauty
 Gender = Female
 BaseMoney = 56
+IntroBGM = ENC-Lass
 #-------------------------------
 [BIKER]
 Name = Biker
@@ -49,6 +50,7 @@ BaseMoney = 32
 Name = Bird Keeper
 Gender = Male
 BaseMoney = 32
+IntroBGM = ENC-Farmer
 #-------------------------------
 [BUGCATCHER]
 Name = Bug Catcher
@@ -60,6 +62,7 @@ Name = Burglar
 Gender = Male
 BaseMoney = 88
 SkillLevel = 32
+IntroBGM = ENC-Burglar
 #-------------------------------
 [CHANELLER]
 Name = Channeler
@@ -91,11 +94,13 @@ SkillLevel = 32
 Name = Gentleman
 Gender = Male
 BaseMoney = 72
+IntroBGM = ENC-Butler 
 #-------------------------------
 [HIKER]
 Name = Hiker
 Gender = Male
 BaseMoney = 32
+IntroBGM = ENC-Ranger
 #-------------------------------
 [JUGGLER]
 Name = Juggler
@@ -122,6 +127,7 @@ BaseMoney = 64
 Name = Pokémon Breeder
 Gender = Female
 BaseMoney = 48
+IntroBGM = ENC-Farmer
 #-------------------------------
 [PROFESSOR]
 Name = Professor
@@ -152,6 +158,7 @@ BaseMoney = 48
 Name = Super Nerd
 Gender = Male
 BaseMoney = 48
+IntroBGM = ENC-Pokefan
 #-------------------------------
 [TAMER]
 Name = Tamer
@@ -177,6 +184,7 @@ BaseMoney = 24
 Name = Camper
 Gender = Male
 BaseMoney = 16
+IntroBGM = ENC-Youngster
 #-------------------------------
 [PICNICKER]
 Name = Picnicker
@@ -197,11 +205,13 @@ BaseMoney = 60
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+IntroBGM = ENC-Youngster
 #-------------------------------
 [LASS]
 Name = Lass
 Gender = Female
 BaseMoney = 16
+IntroBGM = ENC-Lass
 #-------------------------------
 [POKEMONRANGER_M]
 Name = Pokémon Ranger
@@ -217,11 +227,13 @@ BaseMoney = 60
 Name = Psychic
 Gender = Male
 BaseMoney = 32
+IntroBGM = ENC-Psychic
 #-------------------------------
 [PSYCHIC_F]
 Name = Psychic
 Gender = Female
 BaseMoney = 32
+IntroBGM = ENC-Psychic
 #-------------------------------
 [SWIMMER_M]
 Name = Swimmer
@@ -419,18 +431,22 @@ BaseMoney = 60
 Name = Roughneck
 Gender = Male
 BaseMoney = 48
+IntroBGM = ENC-Burglar
 #-------------------------------
 [ACETRAINER_M]
 Name = Ace Trainer
 Gender = Male
 BaseMoney = 48
+IntroBGM = ENC-Ace Trainer
 #-------------------------------
 [ACETRAINER_F]
 Name = Ace Trainer
 Gender = Female
 BaseMoney = 48
+IntroBGM = ENC-Ace Trainer
 #-------------------------------
 [OFFICELADY]
 Name = Office Lady
 Gender = Female
 BaseMoney = 48
+IntroBGM = ENC-Lass
