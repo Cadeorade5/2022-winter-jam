@@ -9,6 +9,16 @@ Pokemon = ROCKRUFF,15
 	Ability = VITALSPIRIT
 	Nature = JOLLY
 #-------------------------------
+[ASHLEY,Ashley,2]
+LoseText = I'd expect nothing less from my childhood friend!
+Pokemon = GIRAFARIG,18
+	Ability = SAPSIPPER
+	Nature = JOLLY
+Pokemon = EEVEE,18
+Pokemon = ROCKRUFF,20
+	Ability = VITALSPIRIT
+	Nature = JOLLY
+#-------------------------------
 [CAMPER,Jeremy]
 LoseText = Shorts can't protect me from losing!
 Pokemon = TAROUNTULA,15
