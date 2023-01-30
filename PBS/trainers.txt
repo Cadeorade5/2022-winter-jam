@@ -95,6 +95,14 @@ LoseText = Yes, you are more than prepared.
 Pokemon = BALTOY,19
 Pokemon = LARVESTA,19
 #-------------------------------
+[LOTUSCORP_M,Conrad]
+LoseText = The boss is not gonna be happy about this.
+Pokemon = IMPIDIMP,20
+#-------------------------------
+[LOTUSCORP_F,Valerie]
+LoseText = This isn't gonna look good...
+Pokemon = HOUNDOUR,20
+#-------------------------------
 [LASS,Jill]
 LoseText = I came all the way to see Professor Juniper!
 Pokemon = PANSEAR,22

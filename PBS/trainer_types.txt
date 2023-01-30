@@ -450,3 +450,15 @@ Name = Office Lady
 Gender = Female
 BaseMoney = 48
 IntroBGM = ENC-Lass
+#-------------------------------
+[LOTUSCORP_M]
+Name = Lotus Corp. Grunt
+Gender = Male
+BaseMoney = 48
+IntroBGM = ENC-Lotus
+#-------------------------------
+[LOTUSCORP_F]
+Name = Lotus Corp. Grunt
+Gender = Female
+BaseMoney = 48
+IntroBGM = ENC-Lotus
