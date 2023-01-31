@@ -162,3 +162,9 @@ Pokemon = DARUMAKA,24
 LoseText = I slipped on a banana.
 Pokemon = SCRAGGY,24
 Pokemon = TIMBURR,24
+#-------------------------------
+[GENTLEMAN,Kenneth]
+LoseText = Quite a fine battle indeed!
+Pokemon = LOTAD,24
+	Item = EVIOLITE
+Pokemon = SANDILE,24
