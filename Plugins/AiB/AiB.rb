@@ -14,7 +14,7 @@ module Always_in_Bush_in_Water
   # Sand
   AIS_ACTIVE  = true
   # Configurable constants for bush depth,water depth and sand depth
-  BUSH_DEPTH     = 12
+  BUSH_DEPTH     = 40
   WATER_DEPTH    = 15
   SAND_DEPTH     = 7
   # List of event IDs that are allowed to be submerged in water. Note that by default events are not allowed in water.
@@ -28,7 +28,7 @@ module Always_in_Bush_in_Water
     FOLLOWING_POKEMON = true
   else
     FOLLOWING_POKEMON = false
-  end  
+  end
 end
 
 #===================================================================================================================
@@ -52,7 +52,7 @@ class Game_Character
             @bush_depth = Always_in_Bush_in_Water::BUSH_DEPTH
           end
 
-        # added for sand  
+        # added for sand
         elsif !moving? && this_map[0].sand?(this_map[1], this_map[2]) && Always_in_Bush_in_Water::AIS_ACTIVE
           if !Always_in_Bush_in_Water::EVENTS_NOT_ALLOWED_IN_SAND.include?(@id)
             @bush_depth = Always_in_Bush_in_Water::SAND_DEPTH
@@ -60,7 +60,7 @@ class Game_Character
         elsif moving? && this_map[0].sand?(this_map[1], this_map[2]) && behind_map[0].sand?(behind_map[1], behind_map[2]) && Always_in_Bush_in_Water::AIS_ACTIVE
           if !Always_in_Bush_in_Water::EVENTS_NOT_ALLOWED_IN_SAND.include?(@id)
             @bush_depth = Always_in_Bush_in_Water::SAND_DEPTH
-          end  
+          end
 
         # added for water
         elsif !moving? && this_map[0].water?(this_map[1], this_map[2]) && Always_in_Bush_in_Water::AIW_ACTIVE
@@ -69,22 +69,22 @@ class Game_Character
           elsif !Always_in_Bush_in_Water::EVENTS_ALLOWED_IN_WATER.include?(@id)
             @bush_depth = 0
           else
-            @bush_depth = Always_in_Bush_in_Water::WATER_DEPTH   
+            @bush_depth = Always_in_Bush_in_Water::WATER_DEPTH
           end
-          
+
         elsif moving? && this_map[0].water?(this_map[1], this_map[2]) && behind_map[0].water?(behind_map[1], behind_map[2]) && Always_in_Bush_in_Water::AIW_ACTIVE
           if self == $game_player && $PokemonGlobal.surfing
             @bush_depth = 0
           elsif !Always_in_Bush_in_Water::EVENTS_ALLOWED_IN_WATER.include?(@id)
             @bush_depth = 0
           else
-            @bush_depth = Always_in_Bush_in_Water::WATER_DEPTH   
+            @bush_depth = Always_in_Bush_in_Water::WATER_DEPTH
           end
         else
           @bush_depth = 0
         end
-        
-        
+
+
         if Always_in_Bush_in_Water::FOLLOWING_POKEMON
           if FollowingPkmn.active?
             if self == FollowingPkmn.get_event
@@ -95,9 +95,9 @@ class Game_Character
               elsif moving? && this_map[0].water?(this_map[1], this_map[2]) && behind_map[0].water?(behind_map[1], behind_map[2]) && Always_in_Bush_in_Water::AIW_ACTIVE
                 @bush_depth = Always_in_Bush_in_Water::WATER_DEPTH
               end
-            end   
+            end
           end
-        end       
+        end
       end
     end
 end
@@ -127,7 +127,7 @@ class Game_Map
       return true if terrain.id_number == 3
     end
     return false
-  end  
+  end
 end
 
 
@@ -153,7 +153,7 @@ if Always_in_Bush_in_Water::FOLLOWING_POKEMON
       FollowingPkmn.refresh(anim)
       $game_temp.followers.move_followers
       $game_temp.followers.turn_followers
-      
+
       #additions
       even=FollowingPkmn.get_event
       even.calculate_bush_depth
