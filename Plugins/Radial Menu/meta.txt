@@ -1,0 +1,5 @@
+Name         = Radial Menu v20
+Version      = 3.0
+Essentials   = 20
+Website      = https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Credits      = Yankas, Cony, Hallow
