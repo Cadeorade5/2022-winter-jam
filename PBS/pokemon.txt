@@ -21861,7 +21861,7 @@ Shape = Multiped
 Category = Tantrum
 Pokedex = It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.
 Generation = 8
-Evolutions = GRAPPLOCT,HasMove,TAUNT
+Evolutions = GRAPPLOCT,Level,35
 #-------------------------------
 [GRAPPLOCT]
 Name = Grapploct
