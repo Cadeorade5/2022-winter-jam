@@ -4,7 +4,7 @@
 class MoveSelectionSprite < Sprite
     attr_reader :preselected
     attr_reader :index
-  
+
     def initialize(viewport = nil, fifthmove = false)
       super(viewport)
       @movesel = AnimatedBitmap.new("Graphics/Pictures/Summary/cursor_move")
@@ -15,22 +15,22 @@ class MoveSelectionSprite < Sprite
       @updating = false
       refresh
     end
-  
+
     def dispose
       @movesel.dispose
       super
     end
-  
+
     def index=(value)
       @index = value
       refresh
     end
-  
+
     def preselected=(value)
       @preselected = value
       refresh
     end
-  
+
     def refresh
       w = @movesel.width
       h = @movesel.height / 2
@@ -43,7 +43,7 @@ class MoveSelectionSprite < Sprite
         self.src_rect.set(0, 0, w, h)
       end
     end
-  
+
     def update
       @updating = true
       super
@@ -59,11 +59,11 @@ class MoveSelectionSprite < Sprite
     MARK_WIDTH  = 16
     MARK_HEIGHT = 16
 	  MARK_CHARS = ["●", "▲", "■", "♥"]
-  
+
     def pbUpdate
       pbUpdateSpriteHash(@sprites)
     end
-  
+
     def pbStartScene(party, partyindex, inbattle = false)
       @viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
       @viewport.z = 99999
@@ -109,7 +109,7 @@ class MoveSelectionSprite < Sprite
       drawPage(@page)
       pbFadeInAndShow(@sprites) { pbUpdate }
     end
-  
+
     def pbStartForgetScene(party, partyindex, move_to_learn)
       @viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
       @viewport.z = 99999
@@ -137,14 +137,14 @@ class MoveSelectionSprite < Sprite
       drawSelectedMove(new_move, @pokemon.moves[0])
       pbFadeInAndShow(@sprites)
     end
-  
+
     def pbEndScene
       pbFadeOutAndHide(@sprites) { pbUpdate }
       pbDisposeSpriteHash(@sprites)
       @typebitmap.dispose
       @viewport.dispose
     end
-  
+
     def pbDisplay(text)
       @sprites["messagebox"].text = text
       @sprites["messagebox"].visible = true
@@ -164,7 +164,7 @@ class MoveSelectionSprite < Sprite
       end
       @sprites["messagebox"].visible = false
     end
-  
+
     def pbConfirm(text)
       ret = -1
       @sprites["messagebox"].text    = text
@@ -194,7 +194,7 @@ class MoveSelectionSprite < Sprite
       @sprites["messagebox"].visible = false
       return ret
     end
-  
+
     def pbShowCommands(commands, index = 0)
       ret = -1
       using(cmdwindow = Window_CommandPokemon.new(commands)) {
@@ -217,7 +217,7 @@ class MoveSelectionSprite < Sprite
           end
         end
       }
-      return ret     
+      return ret
     end
 
 	  def drawMarkings(bitmap, x, y)
@@ -243,7 +243,7 @@ class MoveSelectionSprite < Sprite
        @sprites["overlay_shiny"].visible = false
       end
     end
-  
+
     def drawPage(page)
       if @pokemon.egg?
         drawPageOneEgg
@@ -321,7 +321,7 @@ class MoveSelectionSprite < Sprite
       when 3 then drawPageThree
       end
     end
-  
+
     def drawPageOne
       overlay = @sprites["overlay"].bitmap
       base   = Color.new(248, 248, 248)
@@ -438,7 +438,7 @@ class MoveSelectionSprite < Sprite
         }
         memo += sprintf("%s\n", characteristics[best_stat][best_iv % 5])
       end
-      # Write how Pokémon was 
+      # Write how Pokémon was
       if @pokemon.obtain_method == 1
         memo += _INTL("Egg hatched in ")
         mapname = pbGetMapNameFromId(@pokemon.hatched_map)
@@ -482,7 +482,7 @@ class MoveSelectionSprite < Sprite
         overlay.blt(type_x, 146 - 40, @typebitmap.bitmap, type_rect)
       end
     end
-  
+
     def drawPageOneEgg
       @sprites["itemicon"].item = @pokemon.item_id
       overlay = @sprites["overlay"].bitmap
@@ -545,7 +545,7 @@ class MoveSelectionSprite < Sprite
       # Draw the Pokémon's markings
       drawMarkings(overlay, 84 + 146, 292 - 226)
     end
-  
+
     def drawPageTwo
       overlay = @sprites["overlay"].bitmap
       base   = Color.new(248, 248, 248)
@@ -629,7 +629,7 @@ class MoveSelectionSprite < Sprite
                             [["Graphics/Pictures/Summary/overlay_exp", 362 + 6, 372 - 68, 0, 0, w, 6]]) if !@pokemon.shadowPokemon?
       end
     end
-  
+
     def drawPageThree
       overlay = @sprites["overlay"].bitmap
       moveBase   = Color.new(33, 33, 33)
@@ -677,12 +677,12 @@ class MoveSelectionSprite < Sprite
       pbDrawTextPositions(overlay, textpos)
       pbDrawImagePositions(overlay, imagepos)
     end
-  
+
     def drawPageThreeSelecting(move_to_learn)
       overlay = @sprites["overlay"].bitmap
       overlay.clear
       # Set different overlay for shiny Pokémon
-      drawShinyOverlay(overlay, 2, @pokemon.shiny?)  
+      drawShinyOverlay(overlay, 2, @pokemon.shiny?)
       base   = Color.new(248, 248, 248)
       shadow = Color.new(120, 128, 144)
       moveBase   = Color.new(33, 33, 33)
@@ -720,7 +720,7 @@ class MoveSelectionSprite < Sprite
       # Show shininess star (Changed to match FRLG)
       if @pokemon.shiny?
         imagepos.push([sprintf("Graphics/Pictures/shiny"), 92, 76])
-      end 
+      end
       # Write move names, types and PP amounts for each known move
       yPos = 104 - 60
       limit = (move_to_learn) ? Pokemon::MAX_MOVES + 1 : Pokemon::MAX_MOVES
@@ -763,7 +763,7 @@ class MoveSelectionSprite < Sprite
         overlay.blt(type_x, 78 - 8, @typebitmap.bitmap, type_rect)
       end
     end
-  
+
     def drawSelectedMove(move_to_learn, selected_move)
       # Draw all of page four, except selected move's details
       drawPageThreeSelecting(move_to_learn)
@@ -789,12 +789,12 @@ class MoveSelectionSprite < Sprite
       # Draw all text
       pbDrawTextPositions(overlay, textpos)
       # Draw selected move's damage category icon
-      imagepos = [["Graphics/Pictures/category", 166 + 14, 124 - 10, 0, selected_move.display_category(@pokemon) * 28, 64, 28]]
+      imagepos = [["Graphics/Pictures/category", 166 + 14, 124 - 10, 0, selected_move.display_category(@pokemon) * 22, 66, 22]]
       pbDrawImagePositions(overlay, imagepos)
       # Draw selected move's description
       drawTextEx(overlay, 4 + 4, 224 - 6, 230, 5, selected_move.description, base, shadow)
     end
-  
+
     def pbGoToPrevious
       newindex = @partyindex
       while newindex > 0
@@ -805,7 +805,7 @@ class MoveSelectionSprite < Sprite
         end
       end
     end
-  
+
     def pbGoToNext
       newindex = @partyindex
       while newindex < @party.length - 1
@@ -816,7 +816,7 @@ class MoveSelectionSprite < Sprite
         end
       end
     end
-  
+
     def pbChangePokemon
       @pokemon = @party[@partyindex]
       @sprites["pokemon"].setPokemonBitmap(@pokemon)
@@ -824,7 +824,7 @@ class MoveSelectionSprite < Sprite
       pbSEStop
       @pokemon.play_cry
     end
-  
+
     def pbMoveSelection
       @sprites["movesel"].visible = true
       @sprites["movesel"].index   = 0
@@ -896,7 +896,7 @@ class MoveSelectionSprite < Sprite
         commands.push((markings[i] == 1 ? "<c = 000000>" : "<c = ded6de>") + "    " + PokemonSummary_Scene::MARK_CHARS[i])
       end
       commands.push(_INTL("OK"))
-      commands.push(_INTL("Cancel")) 
+      commands.push(_INTL("Cancel"))
       return commands
     end
 
@@ -942,7 +942,7 @@ class MoveSelectionSprite < Sprite
           end
         end
         cmdwindow.update
-      end 
+      end
       pbUpdateSpriteHash(@sprites)
       cmdwindow.dispose
       Input.update
@@ -952,7 +952,7 @@ class MoveSelectionSprite < Sprite
       end
       return false
     end
-  
+
     def pbOptions
       dorefresh = false
       commands = []
@@ -993,7 +993,7 @@ class MoveSelectionSprite < Sprite
       end
       return dorefresh
     end
-  
+
     def pbChooseMoveToForget(move_to_learn)
       new_move = (move_to_learn) ? Pokemon::Move.new(move_to_learn) : nil
       selmove = 0
@@ -1031,7 +1031,7 @@ class MoveSelectionSprite < Sprite
       end
       return (selmove == Pokemon::MAX_MOVES) ? -1 : selmove
     end
-  
+
     def pbScene
       @pokemon.play_cry
       loop do
@@ -1094,7 +1094,7 @@ class MoveSelectionSprite < Sprite
       return @partyindex
     end
   end
-  
+
   #===============================================================================
   #
   #===============================================================================
@@ -1103,14 +1103,14 @@ class MoveSelectionSprite < Sprite
       @scene = scene
       @inbattle = inbattle
     end
-  
+
     def pbStartScreen(party, partyindex)
       @scene.pbStartScene(party, partyindex, @inbattle)
       ret = @scene.pbScene
       @scene.pbEndScene
       return ret
     end
-  
+
     def pbStartForgetScreen(party, partyindex, move_to_learn)
       ret = -1
       @scene.pbStartForgetScene(party, partyindex, move_to_learn)
@@ -1123,7 +1123,7 @@ class MoveSelectionSprite < Sprite
       @scene.pbEndScene
       return ret
     end
-  
+
     def pbStartChooseMoveScreen(party, partyindex, message)
       ret = -1
       @scene.pbStartForgetScene(party, partyindex, nil)
@@ -1137,7 +1137,7 @@ class MoveSelectionSprite < Sprite
       return ret
     end
   end
-  
+
   #===============================================================================
   #
   #===============================================================================
@@ -1157,4 +1157,3 @@ class MoveSelectionSprite < Sprite
     end
     $game_map.need_refresh = true if $game_map
   end
-  

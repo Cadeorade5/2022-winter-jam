@@ -437,7 +437,15 @@ Generation = 7
 #-------------------------------
 [CUBONE,1]
 Generation = 7
-Evolutions = MAROWAK,LevelNight,28
+Evolutions = MAROWAK,Level,28
+#-------------------------------
+[EXEGGCUTE,1]
+Generation = 7
+Evolutions = EXEGGUTOR,Item,LEAFSTONE
+#-------------------------------
+[PIKACHU,1]
+Generation = 7
+Evolutions = RAICHU,Item,THUNDERSTONE
 #-------------------------------
 [MAROWAK,1]
 FormName = Alolan
@@ -2365,7 +2373,7 @@ Generation = 8
 Flags = InheritFormWithEverStone
 #-------------------------------
 [QUILAVA,1]
-Evolutions = TYPHLOSION,Level,36
+Evolutions = TYPHLOSION,HoldItemHisuianStarter,TARNISHEDSHARD
 Flags = InheritFormWithEverStone
 #-------------------------------
 [TYPHLOSION,1]
@@ -2420,7 +2428,7 @@ Weight = 659.0
 Pokedex = It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.
 #-------------------------------
 [DEWOTT,1]
-Evolutions = SAMUROTT,Level,36
+Evolutions = SAMUROTT,HoldItemHisuianStarter,TARNISHEDSHARD
 Flags = InheritFormWithEverStone
 #-------------------------------
 [SAMUROTT,1]
@@ -2556,7 +2564,7 @@ Generation = 8
 Flags = InheritFormWithEverStone
 #-------------------------------
 [DARTRIX,1]
-Evolutions = DECIDUEYE,Level,34
+Evolutions = DECIDUEYE,HoldItemHisuianStarter,TARNISHEDSHARD
 Flags = InheritFormWithEverStone
 #-------------------------------
 [DECIDUEYE,1]

@@ -7480,3 +7480,40 @@ Price = 10200
 FieldUse = OnPokemon
 Flags = Fling_30,EvolutionStone
 Description = Great for overly complicated evolution methods! It allows certain Pokémon to evolve.
+#-------------------------------
+[STRANGESOUVENIR]
+Name = Strange Souvenir
+NamePlural = Strange Souvenirs
+Pocket = 1
+Price = 48000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = An Alolan artifact to be held. It makes certain Pokémon evolve into their Alolan forms.
+#-------------------------------
+[DYNAMAXCRYSTAL]
+Name = Dynamax Crystal
+NamePlural = Dynamax Crystals
+Pocket = 1
+Price = 19000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A Galarian crystal of energy to be held. It makes certain Pokémon evolve into their Galarian forms.
+#-------------------------------
+[ALPHASHARD]
+Name = Alpha Shard
+NamePlural = Alpha Shards
+Pocket = 1
+Price = 72000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A Hisuian artifact to be held. It makes certain Pokémon evolve into their Hisuian forms.
+#-------------------------------
+[TARNISHEDSHARD]
+Name = Tarnished Shard
+NamePlural = Tarnished Shards
+Pocket = 1
+Price = 3000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A Hisuian artifact to be held. It makes certain Starters evolve into their Hisuian forms.
+
