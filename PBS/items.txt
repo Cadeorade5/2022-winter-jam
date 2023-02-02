@@ -7462,3 +7462,21 @@ Pocket = 8
 Price = 0
 FieldUse = Direct
 Description = A special device used to train Pokémon. All Pokémon in the party gain experience from battles when On.
+#-------------------------------
+[LINKSTONE]
+Name = Link Stone
+NamePlural = Link Stones
+Pocket = 1
+Price = 3000
+FieldUse = OnPokemon
+Consumable = false
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a link cable pattern.
+#-------------------------------
+[IDIOSSTONE]
+Name = Idios Stone
+NamePlural = Idios Stones
+Pocket = 1
+Price = 10200
+FieldUse = OnPokemon
+Flags = Fling_30,EvolutionStone
+Description = Great for overly complicated evolution methods! It allows certain Pokémon to evolve.

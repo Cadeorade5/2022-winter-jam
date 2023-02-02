@@ -36,7 +36,7 @@ class Scene_Map
 	alias quicksave_update update
   def update
     quicksave_update
-    if Input.trigger?(Input::AUX2) #AUX2 refers to W key, can be changed by pressing F1
+    if (Input.trigger?(Input::AUX2) && $game_switches[69]) #AUX2 refers to W key, can be changed by pressing F1
 	if Scene_Map.pbSaveScreen
 		else
 		Kernel.pbMessage("Save failed.")

@@ -2199,7 +2199,7 @@ Category = Wild Duck
 Pokedex = It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This Pokémon occasionally fights with others over choice sticks.
 Generation = 1
 WildItemUncommon = LEEK
-Evolutions = SIRFETCHD,None,
+Evolutions = SIRFETCHD,Item,IDIOSSTONE
 #-------------------------------
 [DODUO]
 Name = Doduo
@@ -6172,7 +6172,7 @@ Habitat = Forest
 Category = Big Horn
 Pokedex = Stantler's magnificent antlers were once traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction.
 Generation = 2
-Evolutions = WYRDEER,LevelUseMoveCount,PSYSHIELDBASH
+Evolutions = WYRDEER,Item,IDIOSSTONE
 #-------------------------------
 [SMEARGLE]
 Name = Smeargle
@@ -14617,7 +14617,7 @@ Category = Spirit
 Pokedex = These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.
 Generation = 5
 WildItemUncommon = SPELLTAG
-Evolutions = COFAGRIGUS,Level,34,RUNERIGUS,None,
+Evolutions = COFAGRIGUS,Level,34,RUNERIGUS,Item,IDIOSSTONE
 #-------------------------------
 [COFAGRIGUS]
 Name = Cofagrigus
@@ -17719,7 +17719,7 @@ Shape = Multiped
 Category = Revolving
 Pokedex = It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.
 Generation = 6
-Evolutions = MALAMAR,Level,30
+Evolutions = MALAMAR,Item,IDIOSSTONE
 #-------------------------------
 [MALAMAR]
 Name = Malamar
