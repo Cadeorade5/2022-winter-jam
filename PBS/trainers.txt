@@ -40,8 +40,8 @@ Pokemon = SIZZLIPEDE,16
 #-------------------------------
 [SUPERNERD,Josh]
 LoseText = Can the algorithms calculate the nature of this loss?
-Pokemon = RUFFLET,16
-Pokemon = HERACROSS,16
+Pokemon = RUFFLET,17
+Pokemon = HERACROSS,15
 #-------------------------------
 [HIKER,Nathaniel]
 LoseText = I wanted to rhyme, but now I'm out of time!
@@ -79,29 +79,29 @@ Pokemon = MEDITITE,18
 #-------------------------------
 [BURGLAR,Conner]
 LoseText = Hmph, I guess you can go...
-Pokemon = MURKROW,18
+Pokemon = MURKROW,19
 #-------------------------------
 [PSYCHIC_F,Clarissa]
 LoseText = The ruins emit an immense energy.
-Pokemon = UNOWN,18
+Pokemon = UNOWN,19
 Pokemon = SIGILYPH,19
 #-------------------------------
 [HIKER,Malakai]
 LoseText = Whoa! You've got some cool Pokemon too!
-Pokemon = TRAPINCH,19
+Pokemon = TRAPINCH,20
 #-------------------------------
 [PSYCHIC_M,Zakir]
 LoseText = Yes, you are more than prepared.
 Pokemon = BALTOY,19
-Pokemon = LARVESTA,19
+Pokemon = LARVESTA,20
 #-------------------------------
 [LOTUSCORP_M,Conrad]
 LoseText = The boss is not gonna be happy about this.
-Pokemon = IMPIDIMP,20
+Pokemon = IMPIDIMP,21
 #-------------------------------
 [LOTUSCORP_F,Valerie]
 LoseText = This isn't gonna look good...
-Pokemon = HOUNDOUR,20
+Pokemon = HOUNDOUR,21
 #-------------------------------
 [LASS,Jill]
 LoseText = I came all the way to see Professor Juniper!
