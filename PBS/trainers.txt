@@ -103,6 +103,38 @@ Pokemon = IMPIDIMP,21
 LoseText = This isn't gonna look good...
 Pokemon = HOUNDOUR,21
 #-------------------------------
+[LOTUSCORP_M,Mattie]
+LoseText = We gotta get outta here...
+Pokemon = SNEASEL,21
+#-------------------------------
+[LOTUSCORP_M,Stanley]
+LoseText = But we're lost!
+Pokemon = VULLABY,21
+#-------------------------------
+[LOTUSCORP_F,Kate]
+LoseText = Fine, I guess you are going somewhere.
+Pokemon = UNOWN,22
+#-------------------------------
+[LOTUSCORP_F,Elsa]
+LoseText = Right past us...
+Pokemon = SLOWPOKE,22
+#-------------------------------
+[LOTUSCORP_M,Ronnie]
+LoseText = How dare you!
+Pokemon = SANDILE,23
+#-------------------------------
+[LOTUSCORP_F,Nora]
+LoseText = You'll pay for this!
+Pokemon = PINSIR,23
+#-------------------------------
+[LOTUSCORP_F,Leslie]
+LoseText = Hmph.
+Pokemon = PURRLOIN,24
+#-------------------------------
+[LOTUSCORP_M,Dante]
+LoseText = Hmph.
+Pokemon = WOOBAT,24
+#-------------------------------
 [LASS,Jill]
 LoseText = I came all the way to see Professor Juniper!
 Pokemon = PANSEAR,22

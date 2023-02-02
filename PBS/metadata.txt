@@ -3,7 +3,7 @@
 [0]
 StartMoney = 3000
 StartItemStorage = POTION
-Home = 76,11,5,4
+Home = 76,10,5,4
 StorageCreator = Lux
 WildBattleBGM = Battle wild
 TrainerBattleBGM = Battle trainer
