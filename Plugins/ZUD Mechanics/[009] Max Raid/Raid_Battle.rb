@@ -91,7 +91,7 @@ class RaidBattle < Battle
         neutralize = false
       end
       if neutralize
-        pbDisplay(_INTL("{1} released a neutralizing wave of Dynamax energy!", b.pbThis))
+        pbDisplay(_INTL("{1} released a neutralizing wave of energy!", b.pbThis))
         @scene.pbWaveAttack(b.index)
         pbDisplay(_INTL("All stat increases and Abilities of your Pokémon were nullified!"))
         if b.status != :NONE
@@ -108,7 +108,7 @@ class RaidBattle < Battle
       #-------------------------------------------------------------------------
       if @hard_mode
         if b.effects[PBEffects::ShieldCounter] == -1 && b.effects[PBEffects::RaidShield] <= 0
-          pbDisplay(_INTL("{1} released an immense wave of Dynamax energy!", b.pbThis))
+          pbDisplay(_INTL("{1} released an immense wave of energy!", b.pbThis))
           @scene.pbWaveAttack(b.index)
           b.eachOpposing do |p|
             if p.effects[PBEffects::Dynamax] > 0
@@ -400,13 +400,13 @@ class RaidBattle < Battle
       when partyPriority.last
         pbSetBattleMechanicUsage(battler.index, "Dynamax", -1)
         pbSEPlay(sprintf("Anim/Lucky Chant"))
-        pbDisplayPaused(_INTL("The absorbed Dynamax energy fully recharged {1}'s {2}!\n{1} can use Dynamax again!", trainerName, item))
+        pbDisplayPaused(_INTL("The absorbed energy fully recharged {1}'s {2}!\n{1} can use moves again!", trainerName, item))
       # First Cheer user.
       when partyPriority.first
-        pbDisplay(_INTL("{1}'s {2} absorbed a little of the surrounding Dynamax Energy!", trainerName, item))
+        pbDisplay(_INTL("{1}'s {2} absorbed a little of the surrounding energy!", trainerName, item))
       # All other Cheer users.
       else
-        pbDisplay(_INTL("{1}'s {2} absorbed even more of the surrounding Dynamax Energy!", trainerName, item))
+        pbDisplay(_INTL("{1}'s {2} absorbed even more of the surrounding energy!", trainerName, item))
       end
     end
   end
@@ -493,6 +493,7 @@ class Battle
         pbDisplay(_INTL("You were blown out of the den!"))
         pbSEPlay("Battle flee")
         @decision = 3
+        $game_variables[34] = 3
         pbDynamaxAdventure.knockouts = 0 if inMaxLair?
       else
         #-----------------------------------------------------------------------

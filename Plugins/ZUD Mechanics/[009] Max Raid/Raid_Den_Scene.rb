@@ -312,6 +312,7 @@ class MaxRaidScene
       elsif Input.trigger?(Input::BACK)
         if pbConfirmMessage(_INTL("Would you like to leave?"))
           pbSEPlay("GUI menu close")
+          $game_variables[34] = 3
           break
         end
       end

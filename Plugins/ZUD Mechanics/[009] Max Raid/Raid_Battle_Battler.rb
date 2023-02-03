@@ -21,7 +21,7 @@ class Battle::Battler
       end
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Handles success checks for moves used in Max Raid battles.
   #-----------------------------------------------------------------------------
@@ -39,7 +39,7 @@ class Battle::Battler
           "FixedDamageHalfTargetHP"  # Super Fang
         ]
         if functions.include?(move.function) ||
-           (user.pbHasType?(:GHOST) && 
+           (user.pbHasType?(:GHOST) &&
            move.function == "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1") # Curse
           @battle.pbDisplay(_INTL("But it failed!"))
           ret = false
@@ -57,7 +57,7 @@ class Battle::Battler
           "UserMakeSubstitute"              # Substitute
         ]
         if functions.include?(move.function) ||
-           (user.pbHasType?(:GHOST) && 
+           (user.pbHasType?(:GHOST) &&
            move.function == "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1") # Curse
           @battle.pbDisplay(_INTL("But it failed!"))
           ret = false
@@ -73,7 +73,7 @@ class Battle::Battler
     end
     return ret
   end
-  
+
   #-----------------------------------------------------------------------------
   # Allows a Raid Pokemon to use its base moves in the same turn after Max Moves.
   #-----------------------------------------------------------------------------
@@ -98,21 +98,21 @@ class Battle::Battler
       @battle.pbJudge
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Deals damage to a Raid Pokemon's shields through Max Guard (only in 1v1 raids).
   #-----------------------------------------------------------------------------
   def raid_ShieldBreak(move, target)
-    if @battle.pbSideSize(0) == 1 && 
+    if @battle.pbSideSize(0) == 1 &&
        move.maxMove? && move.damagingMove? &&
-       target.effects[PBEffects::MaxRaidBoss] && 
+       target.effects[PBEffects::MaxRaidBoss] &&
        target.effects[PBEffects::RaidShield] > 0
       @battle.pbDisplay(_INTL("{1}'s mysterious barrier took the hit!", target.pbThis))
       @battle.scene.pbDamageAnimation(target)
       target.effects[PBEffects::RaidShield] -= 1
       @battle.scene.pbRefresh
       if target.effects[PBEffects::RaidShield] <= 0
-        target.effects[PBEffects::RaidShield] = 0 
+        target.effects[PBEffects::RaidShield] = 0
         @battle.scene.pbRaidShield(target)
         @battle.pbDisplay(_INTL("The mysterious barrier disappeared!"))
         oldhp = target.hp
@@ -129,7 +129,7 @@ class Battle::Battler
       end
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Handles outcomes in Max Raid battles when party Pokemon are KO'd.
   #-----------------------------------------------------------------------------
@@ -150,9 +150,10 @@ class Battle::Battler
         koboost = true
       else
         @battle.pbDisplay(_INTL("The storm around {1} grew out of control!", target.pbThis(true)))
-        @battle.pbDisplay(_INTL("You were blown out of the den!"))
+        @battle.pbDisplay(_INTL("You were thrown out of battle!"))
         pbSEPlay("Battle flee")
         @battle.decision = 3
+        $game_variables[34] = 3
       end
       #-------------------------------------------------------------------------
       # Hard Mode Bonuses (KO Boost).
@@ -168,7 +169,7 @@ class Battle::Battler
       end
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Capturing a Max Raid Pokemon.
   #-----------------------------------------------------------------------------
@@ -176,7 +177,7 @@ class Battle::Battler
     pbBGMFade(0.2)
     pbWait((0.2 * 60).round)
     pbBGMPlay("Battle Raid Capture")
-    @battle.pbDisplayPaused(_INTL("{1} is weak!\nThrow a Poké Ball now!", target.pbThis))
+    @battle.pbDisplayPaused(_INTL("The Berserk Pokemon is weak!\nThrow a Poké Ball now!", target.pbThis))
     pbWait(30)
     cmd = 0
     cmd = @battle.pbShowCommands("", ["Catch", "Don't Catch"], 1)
@@ -234,13 +235,14 @@ class Battle::Battler
       raid_PokemonFlees(target)
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Called when a Max Raid Pokemon isn't captured.
   #-----------------------------------------------------------------------------
   def raid_PokemonFlees(target)
-    @battle.pbDisplayPaused(_INTL("{1} disappeared somewhere into the den...", target.pbThis))
+    @battle.pbDisplayPaused(_INTL("{1} disappeared somewhere...", target.pbThis))
     pbSEPlay("Battle flee")
     @battle.decision = 1
+    $game_variables[34] = 1
   end
 end

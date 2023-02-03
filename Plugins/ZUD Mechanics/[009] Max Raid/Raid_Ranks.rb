@@ -64,7 +64,7 @@ end
 
 def raid_LevelFromRank(rank)
   case rank
-  when 1 then return 15 + rand(6)
+  when 1 then return 20
   when 2 then return 30 + rand(6)
   when 3 then return 40 + rand(6)
   when 4 then return 50 + rand(6)
@@ -93,16 +93,16 @@ def raid_GenerateBanlist
   # normally appear (despite other forms of that same species being eligible), or
   # base forms of Legendary species that are too weak to appear in Legendary tier.
   #-----------------------------------------------------------------------------
-  raid_banlist = [:SMEARGLE, 
-                  :SHEDINJA, 
-                  :PHIONE, 
-                  :FLOETTE_5, 
-                  :ZYGARDE_2, 
+  raid_banlist = [:SMEARGLE,
+                  :SHEDINJA,
+                  :PHIONE,
+                  :FLOETTE_5,
+                  :ZYGARDE_2,
                   :ZYGARDE_3,
-                  :TYPENULL, 
-                  :COSMOG, 
-                  :COSMOEM, 
-                  :POIPOLE, 
+                  :TYPENULL,
+                  :COSMOG,
+                  :COSMOEM,
+                  :POIPOLE,
                   :MELTAN,
                   :KUBFU]
   #-----------------------------------------------------------------------------
@@ -111,37 +111,37 @@ def raid_GenerateBanlist
   # appear under certain conditions, which is handled elsewhere.
   #-----------------------------------------------------------------------------
   allowed_forms = [:TAUROS,
-                   :UNOWN, 
-                   :DEOXYS, 
-                   :BURMY, 
-                   :WORMADAM, 
-                   :SHELLOS, 
-                   :GASTRODON, 
+                   :UNOWN,
+                   :DEOXYS,
+                   :BURMY,
+                   :WORMADAM,
+                   :SHELLOS,
+                   :GASTRODON,
                    :ROTOM,
                    :SHAYMIN,
                    :DEERLING,
                    :SAWSBUCK,
-                   :BASCULIN, 
-                   :TORNADUS, 
-                   :THUNDURUS, 
-                   :LANDORUS, 
+                   :BASCULIN,
+                   :TORNADUS,
+                   :THUNDURUS,
+                   :LANDORUS,
                    :VIVILLON,
-                   :FURFROU, 
-                   :FLABEBE, 
-                   :FLOETTE, 
-                   :FLORGES, 
-                   :MEOWSTIC, 
+                   :FURFROU,
+                   :FLABEBE,
+                   :FLOETTE,
+                   :FLORGES,
+                   :MEOWSTIC,
                    :PUMPKABOO,
-                   :GOURGEIST, 
-                   :ZYGARDE, 
-                   :HOOPA, 
-                   :ORICORIO, 
-                   :ROCKRUFF, 
+                   :GOURGEIST,
+                   :ZYGARDE,
+                   :HOOPA,
+                   :ORICORIO,
+                   :ROCKRUFF,
                    :LYCANROC,
-                   :SINISTEA, 
-                   :POLTEAGEIST, 
-                   :TOXTRICITY, 
-                   :INDEEDEE, 
+                   :SINISTEA,
+                   :POLTEAGEIST,
+                   :TOXTRICITY,
+                   :INDEEDEE,
                    :URSHIFU,
                    :BASCULEGION,
                    :ENAMORUS,
@@ -153,7 +153,7 @@ def raid_GenerateBanlist
                    :GIMMIGHOUL]
   #-----------------------------------------------------------------------------
   # All other forms not listed above are added to the raid banlist. Exceptions
-  # are made for regional forms, as well as other specific cases, such as with 
+  # are made for regional forms, as well as other specific cases, such as with
   # Minior meteor forms.
   #-----------------------------------------------------------------------------
   GameData::Species.each do |sp|
@@ -239,7 +239,7 @@ def raid_GenerateSpeciesList(params, rank, env = nil, database_filter = false)
       #-------------------------------------------------------------------------
       # Filters out species that shouldn't naturally appear unless specified.
       #-------------------------------------------------------------------------
-      if database_filter 
+      if database_filter
         next if dataform.include?(sp.species) && sp.form > 0
       else
         next if species_filter && sp.species != params
@@ -272,7 +272,7 @@ end
 def raid_GetSeenSpecies(*args)
   total = []
   raid_GenerateSpeciesList(*args).each { |sp| total.push(sp) if $player.seen?(sp) }
-  return total  
+  return total
 end
 
 #-------------------------------------------------------------------------------
