@@ -64,7 +64,7 @@ end
 
 def raid_LevelFromRank(rank)
   case rank
-  when 1 then return 20
+  when 1 then return 25
   when 2 then return 30 + rand(6)
   when 3 then return 40 + rand(6)
   when 4 then return 50 + rand(6)

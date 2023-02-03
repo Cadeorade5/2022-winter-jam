@@ -468,3 +468,9 @@ Name = Agent
 Gender = Male
 BaseMoney = 100
 IntroBGM = ENC-Lotus
+#-------------------------------
+[GLADION]
+Name = Pokemon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle-Gladion

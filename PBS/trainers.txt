@@ -214,3 +214,13 @@ Pokemon = MASCHIFF,25
 	Nature = JOLLY
 	Moves = BITE,PLAYROUGH,ICEFANG,PSYCHICFANGS
 	Item = CHOICESCARF
+#-------------------------------
+[GLADION,Gladion]
+LoseText = How annoying!
+Pokemon = ZUBAT,24
+	Ability = INNERFOCUS
+Pokemon = SNEASEL,24
+Pokemon = PORYGON,24
+Pokemon = RIOLU,24
+Pokemon = TYPENULL,26
+	Ability = BATTLEARMOR
