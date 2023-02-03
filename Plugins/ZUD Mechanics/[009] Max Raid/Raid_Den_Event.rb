@@ -21,8 +21,8 @@ def pbMaxRaidDen(pkmn = [], rules = {}, pokemon = {})
   # Attempts to reset an empty den.
   #-----------------------------------------------------------------------------
   when 0
+    $game_variables[34] = 1
     this_event.turn_down
-    return pbRaidDenReset(interp, this_event)
   #-----------------------------------------------------------------------------
   # Accesses a Max Raid Den with an existing saved species.
   #-----------------------------------------------------------------------------
@@ -88,7 +88,7 @@ EventHandlers.add(:on_frame_update, :raid_den_reset,
 )
 
 #-------------------------------------------------------------------------------
-# Empties all Max Raid Dens on all maps. 
+# Empties all Max Raid Dens on all maps.
 # Resets each den with new Pokemon instead if reset == true.
 #-------------------------------------------------------------------------------
 def pbClearAllDens(reset = false)
@@ -101,7 +101,7 @@ def pbClearAllDens(reset = false)
       next if !event || !event.name[/raidden/i]
       $PokemonGlobal.eventvars[[map_data.id, event_id]] = set
     end
-  end  
+  end
   $PokemonGlobal.raid_timer = Time.now
   $game_map.update
 end
@@ -154,12 +154,12 @@ class RaidDenSprite
   def disposed?
     @disposed
   end
- 
+
   def update
     raid_pkmn = @event.variable
     set_event_graphic(raid_pkmn)
   end
-  
+
   #-----------------------------------------------------------------------------
   # Sets the actual graphic for a Max Raid Den event.
   #-----------------------------------------------------------------------------
