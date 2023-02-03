@@ -462,3 +462,9 @@ Name = Lotus Corp. Grunt
 Gender = Female
 BaseMoney = 48
 IntroBGM = ENC-Lotus
+#-------------------------------
+[TARTARUS]
+Name = Agent
+Gender = Male
+BaseMoney = 100
+IntroBGM = ENC-Lotus

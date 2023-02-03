@@ -200,3 +200,17 @@ LoseText = Quite a fine battle indeed!
 Pokemon = LOTAD,24
 	Item = EVIOLITE
 Pokemon = SANDILE,24
+#-------------------------------
+[TARTARUS,Tartarus,1]
+LoseText = Quite a fine battle indeed!
+Pokemon = TOEDSCOOL,24
+	Ability = MYCELIUMMIGHT
+	Nature = IMPISH
+	Moves = POWERWHIP, KNOCKOFF, RAPIDSPIN, SPIKES
+	Item = EVIOLITE
+Pokemon = LARVESTA,24
+Pokemon = MASCHIFF,25
+	Ability = STAKEOUT
+	Nature = JOLLY
+	Moves = BITE,PLAYROUGH,ICEFANG,PSYCHICFANGS
+	Item = CHOICESCARF

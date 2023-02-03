@@ -442,6 +442,14 @@ Name = Tayba Ruins
 ShowArea = true
 BattleBack = Cave
 #-------------------------------
+[085]   # Tayba Ruins
+Name = Tayba Ruins
+BattleBack = Cave
+#-------------------------------
+[086]   # Tayba Ruins
+Name = Tayba Ruins
+BattleBack = Cave
+#-------------------------------
 [087]   # Accumula Town
 Name = Accumula Town
 Name = 
