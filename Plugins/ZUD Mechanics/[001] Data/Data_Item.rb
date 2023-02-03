@@ -9,18 +9,18 @@ module GameData
   class Item
     def is_z_crystal?; return has_flag?("ZCrystal"); end
     def is_ultra_item?; return has_flag?("UltraItem"); end
-      
+
     def is_important?
       return true if is_key_item? || is_HM? || is_TM? || is_z_crystal?
       return false
     end
-	
+
     alias zud_unlosable? unlosable?
     def unlosable?(*args)
       return true if is_z_crystal? || is_ultra_item?
       zud_unlosable?(*args)
     end
-    
+
     def self.held_icon_filename(item)
       item_data = self.try_get(item)
       return nil if !item_data
@@ -39,7 +39,7 @@ module GameData
         return ret if pbResolveBitmap(ret)
       end
     end
-	
+
 	# Used for getting TR's based on the inputted types.
 	def self.get_TR_from_type(types)
       trList = []
@@ -57,20 +57,20 @@ end
 #-------------------------------------------------------------------------------
 # Adds Z-Crystal pocket to the bag.
 #-------------------------------------------------------------------------------
-module Settings
-  class << Settings
-    alias bag_pocket_names_zud bag_pocket_names
-  end
-  
-  def self.bag_pocket_names
-    names = self.bag_pocket_names_zud
-    names += [_INTL("Z-Crystals")]
-    return names
-  end
-   
-  BAG_MAX_POCKET_SIZE  += [-1]
-  BAG_POCKET_AUTO_SORT += [true]
-end
+#module Settings
+#  class << Settings
+#    alias bag_pocket_names_zud bag_pocket_names
+#  end
+#
+#  def self.bag_pocket_names
+#    names = self.bag_pocket_names_zud
+#    names += [_INTL("Z-Crystals")]
+#    return names
+#  end
+#
+#  BAG_MAX_POCKET_SIZE  += [-1]
+#  BAG_POCKET_AUTO_SORT += [true]
+#end
 
 #-------------------------------------------------------------------------------
 # Fix to prevent Z-Crystals from duplicating in the bag.
@@ -81,7 +81,7 @@ class PokemonBag
     return true if GameData::Item.get(item).is_z_crystal?
     zud_can_add?(item, qty)
   end
-  
+
   alias zud_add add
   def add(item, qty = 1)
     qty = 0 if has?(item, 1) && GameData::Item.get(item).is_z_crystal?
@@ -140,7 +140,7 @@ ItemHandlers::UseOnPokemon.addIf(proc { |item| GameData::Item.get(item).is_z_cry
 #-------------------------------------------------------------------------------
 # Dynamax Candy/XL
 #-------------------------------------------------------------------------------
-# Increases the Dynamax Level of a Pokemon by 1. The XL variety maxes out this 
+# Increases the Dynamax Level of a Pokemon by 1. The XL variety maxes out this
 # level instead. This won't have any effect on Pokemon that are incapable of
 # Dynamaxing, including Eternatus.
 #-------------------------------------------------------------------------------
@@ -235,7 +235,7 @@ ItemHandlers::UseOnPokemon.add(:MAXSCALES, proc { |item, qty, pkmn, scene|
 # Max Plumage
 #-------------------------------------------------------------------------------
 # Increases each IV of a Pokemon by 1 point. Unlike Hyper Training, this will
-# increase the Pokemon's raw IV's, instead of simply altering the Pokemon's 
+# increase the Pokemon's raw IV's, instead of simply altering the Pokemon's
 # stats to be equivalent of higher IV's.
 #-------------------------------------------------------------------------------
 ItemHandlers::UseOnPokemon.add(:MAXPLUMAGE, proc { |item, qty, pkmn, scene|
@@ -323,7 +323,7 @@ ItemHandlers::UseInField.add(:MAXEGGS, proc { |item|
 ItemHandlers::CanUseInBattle.add(:ZBOOSTER, proc { |item, pokemon, battler, move, firstAction, battle, scene, showMessages|
   side  = battler.idxOwnSide
   owner = battle.pbGetOwnerIndexFromBattlerIndex(battler.index)
-  ring  = battle.pbGetZRingName(battler.index)      
+  ring  = battle.pbGetZRingName(battler.index)
   dmax  = false
   battle.eachSameSideBattler(battler) { |b| dmax = true if b.dynamax? }
   if !battle.pbHasZRing?(battler.index)
@@ -362,7 +362,7 @@ ItemHandlers::UseInBattle.add(:ZBOOSTER, proc { |item, battler, battle|
 ItemHandlers::CanUseInBattle.add(:WISHINGSTAR, proc { |item, pokemon, battler, move, firstAction, battle, scene, showMessages|
   side  = battler.idxOwnSide
   owner = battle.pbGetOwnerIndexFromBattlerIndex(battler.index)
-  band  = battle.pbGetDynamaxBandName(battler.index)      
+  band  = battle.pbGetDynamaxBandName(battler.index)
   dmax  = false
   battle.eachSameSideBattler(battler) { |b| dmax = true if b.dynamax? }
   if !battle.pbHasDynamaxBand?(battler.index)

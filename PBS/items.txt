@@ -7461,7 +7461,15 @@ NamePlural = Exp. Shares
 Pocket = 8
 Price = 0
 FieldUse = Direct
-Description = A special device used to train Pokémon. All Pokémon in the party gain experience from battles when On.
+Description = A special device used to train Pokémon. All Pokémon in the party gain experience from battles when On. Currently on.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp. Share
+NamePlural = Exp. Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Description = A special device used to train Pokémon. All Pokémon in the party gain experience from battles when On. Currently off.
 #-------------------------------
 [LINKSTONE]
 Name = Link Stone
@@ -8068,3 +8076,21 @@ Price = 4000
 FieldUse = OnPokemon
 Flags = Fling_20
 Description = A bundle of six distinctly colored feathers. Increases each base stat of a Pokémon by 1 point.
+#-------------------------------
+[VIAL]
+Name = Healing Vial
+NamePlural = Healing Vials
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Consumable = false
+Description = Heals your party. Recharges at the PokéCenter.
+#-------------------------------
+[EMPTYVIAL]
+Name = Healing Vial
+NamePlural = Healing Vials
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Consumable = false
+Description = Heals your party. Recharges at the PokéCenter. Currently empty.
