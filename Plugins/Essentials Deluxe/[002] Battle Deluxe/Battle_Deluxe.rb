@@ -76,12 +76,20 @@ class TrainerBattle
     rules[:outcome] = 1 if !rules[:outcome]
     foe_size = 0
     foes.each { |f| foe_size += 1 if f.is_a?(Array) || f.is_a?(Symbol) || f.is_a?(NPCTrainer)}
+    oldTrainer = [$player.name, $player.outfit, $player.party]
     pbApplyBattleRules(foe_size)
     if $game_temp.dx_midbattle.is_a?(Symbol) && hasConst?(EssentialsDeluxe, $game_temp.dx_midbattle)
       hash = getConst(EssentialsDeluxe, $game_temp.dx_midbattle).clone
       $game_temp.dx_midbattle = hash
     end
     outcome = TrainerBattle.start(*foes)
+    if rules[:player]
+      $player.name = oldTrainer[0]
+      $player.outfit = oldTrainer[1]
+    end
+    if rules[:party]
+      $player.party = oldTrainer[2]
+    end
     $game_temp.dx_clear
     return outcome
   end
@@ -96,6 +104,7 @@ class WildBattle
     rules[:outcome] = 1 if !rules[:outcome]
     foe_size = 0
     foes.each { |f| foe_size += 1 if f.is_a?(Array) || f.is_a?(Symbol) || f.is_a?(Pokemon) }
+    oldTrainer = [$player.name, $player.outfit, $player.party]
     pbApplyBattleRules(foe_size, true)
     pkmn = []
     for i in 0...foes.length / 2
@@ -109,6 +118,13 @@ class WildBattle
       $game_temp.dx_midbattle = hash
     end
     outcome = WildBattle.start(*pkmn, can_override: false)
+    if rules[:player]
+      $player.name = oldTrainer[0]
+      $player.outfit = oldTrainer[1]
+    end
+    if rules[:party]
+      $player.party = oldTrainer[2]
+    end	  
     $game_temp.dx_clear
     return outcome
   end
@@ -135,6 +151,43 @@ def pbApplyBattleRules(foeside, wildbattle = false)
   setBattleRule("cannotRun")           if wildbattle && rules[:noflee]
   setBattleRule("disablePokeBalls")    if wildbattle && rules[:nocapture]
   setBattleRule("forceCatchIntoParty") if wildbattle && rules[:catchtoparty]
+  #-----------------------------------------------------------------------------
+  # Temporarily changes the player character's name and/or outfit.
+  #-----------------------------------------------------------------------------
+  if rules[:player]
+    case rules[:player]
+    when String  then $player.name = rules[:player]
+    when Integer then $player.outfit = rules[:player]
+    when Array
+      rules[:player].each do |tr|
+        case tr
+        when String  then $player.name = tr
+        when Integer then $player.outfit = tr
+        end
+      end
+    end
+  end
+  #-----------------------------------------------------------------------------
+  # Sets the player's temporary party.
+  #-----------------------------------------------------------------------------
+  if rules[:party]
+    newparty = []
+    species = nil
+    rules[:party].each do |data|
+      case data
+      when Pokemon
+        newparty.push(data)
+      when Symbol
+        next if !GameData::Species.exists?(data)
+        species = data
+      when Integer
+        next if !species
+        newparty.push(Pokemon.new(species, data))
+        species = nil
+      end
+    end
+    $player.party = newparty if !newparty.empty?
+  end
   #-----------------------------------------------------------------------------
   # Sets partner trainer.
   #-----------------------------------------------------------------------------
@@ -243,6 +296,13 @@ def pbApplyBattleRules(foeside, wildbattle = false)
     rules[:fairness_bonus] = true
   end
   rules[:hard] = nil if rules[:hard] && !rules[:rank]
+  #-----------------------------------------------------------------------------
+  # Sets battle music.
+  #-----------------------------------------------------------------------------
+  case rules[:victory]
+  when :None  then $PokemonGlobal.nextBattleVictoryBGM = ""
+  when String then $PokemonGlobal.nextBattleVictoryBGM = rules[:victory]
+  end
   $PokemonGlobal.nextBattleBGM = rules[:bgm] if rules[:bgm].is_a?(String)
   #-----------------------------------------------------------------------------
   # Sets rules for special battle mechanics.
@@ -264,6 +324,26 @@ def pbApplyBattleRules(foeside, wildbattle = false)
   end
   if PluginManager.installed?("ScarletVioletGimmick_TDW") && rules[:notera]
     $game_switches[TDWSettings::TERA_ITEM_ENABLED_SWITCH] = false
+  end
+end
+
+
+#-------------------------------------------------------------------------------
+# Controls capture outcomes with the [:setcapture] rule.
+#-------------------------------------------------------------------------------
+module Battle::CatchAndStoreMixin
+  alias dx_pbCaptureCalc pbCaptureCalc
+  def pbCaptureCalc(*args)
+    if $game_temp.dx_rules? && !$game_temp.dx_rules[:setcapture].nil?
+      return ($game_temp.dx_rules[:setcapture]) ? 4 : 0
+    end
+    dx_pbCaptureCalc(*args)
+  end
+  
+  alias dx_pbRecordAndStoreCaughtPokemon pbRecordAndStoreCaughtPokemon
+  def pbRecordAndStoreCaughtPokemon
+    return if $game_temp.dx_rules? && $game_temp.dx_rules[:setcapture] == :Demo
+    dx_pbRecordAndStoreCaughtPokemon
   end
 end
 

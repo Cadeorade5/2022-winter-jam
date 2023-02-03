@@ -15,39 +15,42 @@ class Battle
     @raid_battle = false
     dx_initialize(*args)
     @scriptedMechanics = {}
-    if $game_temp.dx_rules? && $game_temp.dx_rules.has_key?(:scripted)
-      rule = $game_temp.dx_rules[:scripted]
-      rule.each do |mechanic, trainers|
-        @scriptedMechanics[mechanic] = [
-          [false] * (@player ? @player.length : 1),
-          [false] * (@opponent ? @opponent.length : 1)
-        ]
-        trainers.each do |trainer|
-          case trainer
-          when :Player, :Ally
-            side = 0
+    if $game_temp.dx_rules?
+      @controlPlayer = true if $game_temp.dx_rules[:autobattle]
+      if $game_temp.dx_rules.has_key?(:scripted)
+        rule = $game_temp.dx_rules[:scripted]
+        rule.each do |mechanic, trainers|
+          @scriptedMechanics[mechanic] = [
+            [false] * (@player ? @player.length : 1),
+            [false] * (@opponent ? @opponent.length : 1)
+          ]
+          trainers.each do |trainer|
             case trainer
-            when :Player   then owner = 0
-            when :Ally     then owner = 1
+            when :Player, :Ally
+              side = 0
+              case trainer
+              when :Player   then owner = 0
+              when :Ally     then owner = 1
+              end
+              next if !@scriptedMechanics[mechanic][side][owner]
+              @scriptedMechanics[mechanic][side][owner] = true
+            when :PlayerSide, :AllySide
+              @player.length.times { |owner| @scriptedMechanics[mechanic][0][owner] = true }
+            when :Foe, :FoeAlly, :FoeAlly1, :FoeAlly2
+              side = 1
+              case trainer
+              when :Foe      then owner = 0
+              when :FoeAlly  then owner = 1
+              when :FoeAlly1 then owner = 1
+              when :FoeAlly2 then owner = 2
+              end
+              next if !@scriptedMechanics[mechanic][side][owner]
+              @scriptedMechanics[mechanic][side][owner] = true
+            when :FoeSide
+              @opponent.length.times { |owner| @scriptedMechanics[mechanic][1][owner] = true }
             end
-            next if !@scriptedMechanics[mechanic][side][owner]
-            @scriptedMechanics[mechanic][side][owner] = true
-          when :PlayerSide, :AllySide
-            @player.length.times { |owner| @scriptedMechanics[mechanic][0][owner] = true }
-          when :Foe, :FoeAlly, :FoeAlly1, :FoeAlly2
-            side = 1
-            case trainer
-            when :Foe      then owner = 0
-            when :FoeAlly  then owner = 1
-            when :FoeAlly1 then owner = 1
-            when :FoeAlly2 then owner = 2
-            end
-            next if !@scriptedMechanics[mechanic][side][owner]
-            @scriptedMechanics[mechanic][side][owner] = true
-          when :FoeSide
-            @opponent.length.times { |owner| @scriptedMechanics[mechanic][1][owner] = true }
-          end
-        end		
+          end		
+        end
       end
     end
   end
@@ -89,6 +92,7 @@ class Battle
     when 3, "Dynamax" then @dynamax[side][owner]       = set
     when 4, "Style"   then @battleStyle[side][owner]   = set
     when 5, "Zodiac"  then @zodiac[side][owner]        = set
+    when 6, "Custom"  then @custom[side][owner]        = set
     end
   end
 

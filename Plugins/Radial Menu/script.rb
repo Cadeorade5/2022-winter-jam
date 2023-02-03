@@ -142,7 +142,7 @@ class MenuEntryBag < MenuEntry
         item = nil
         pbFadeOutIn {
             scene = PokemonBag_Scene.new
-            screen = PokemonBagScreen.new(scene,$bag)
+            screen = PokemonBagScreen.new(scene, $bag)
             item = screen.pbStartScreen
         return (item)
         }

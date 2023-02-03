@@ -940,12 +940,12 @@ module PluginManager
   end
   
   # Used to ensure all plugins that rely on Essentials Deluxe are up to date.
-  def self.dx_plugin_check(version = "1.1.9")
+  def self.dx_plugin_check(version = "1.2")
     if self.installed?("Essentials Deluxe", version, true)
-      {"ZUD Mechanics"         => "1.1.4",
+      {"ZUD Mechanics"         => "1.1.5",
        "Enhanced UI"           => "1.0.8",
-       "Focus Meter System"    => "1.0.7",
-       "PLA Battle Styles"     => "1.0.5",
+       "Focus Meter System"    => "1.0.8",
+       "PLA Battle Styles"     => "1.0.6",
        "Improved Field Skills" => "1.0.4",
        "Legendary Breeding"    => "1.0.1",
        "Improved Item Text"    => "1.0",

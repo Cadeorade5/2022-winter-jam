@@ -406,7 +406,7 @@ class Battle::Scene
       next if !data[key]
       case key
       when :mega    then button = Battle::Scene::FightMenu::MegaButton
-      when :ultra   then button = Battle::Scene::FightMenu::UltraButton
+      when :ultra   then button = Battle::Scene::FightMenu::UltraBurstButton
       when :zmove   then button = Battle::Scene::FightMenu::ZMoveButton
       when :dynamax then button = Battle::Scene::FightMenu::DynamaxButton
       when :style   then button = Battle::Scene::FightMenu::StylesButton

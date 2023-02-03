@@ -52,7 +52,7 @@ Name = Cedolan City
 MapPosition = 0,13,10
 BattleBack = indoor3
 Environment = Rock
-Flags = DisableBoxLink
+Flags = DisableBoxLink,PowerSpot
 #-------------------------------
 [011]   # Pokémon Institute
 Name = Cedolan City
@@ -181,7 +181,7 @@ MapPosition = 0,13,6
 Name = Ingido Plateau
 MapPosition = 0,13,6
 BattleBack = elite1
-Flags = DisableBoxLink
+Flags = DisableBoxLink,PowerSpot
 #-------------------------------
 [038]   # Hall of Fame
 Name = Ingido Plateau
@@ -307,7 +307,7 @@ MapPosition = 0,17,10
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
-Flags = DisableBoxLink
+Flags = DisableBoxLink,PowerSpot
 #-------------------------------
 [057]   # Stadium Cup lobby
 Name = Battle Frontier
@@ -321,7 +321,7 @@ MapPosition = 0,17,10
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
-Flags = DisableBoxLink
+Flags = DisableBoxLink,PowerSpot
 #-------------------------------
 [060]   # Battle Arena
 Name = Battle Frontier
@@ -331,7 +331,7 @@ MapPosition = 0,17,10
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
-Flags = DisableBoxLink
+Flags = DisableBoxLink,PowerSpot
 #-------------------------------
 [062]   # Battle Factory
 Name = Battle Frontier
@@ -346,7 +346,7 @@ Flags = DisableBoxLink
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
-Flags = DisableBoxLink
+Flags = DisableBoxLink,PowerSpot
 #-------------------------------
 [065]   # Battle Factory corridor
 Name = Battle Frontier
