@@ -137,69 +137,69 @@ Pokemon = WOOBAT,24
 #-------------------------------
 [LASS,Jill]
 LoseText = I came all the way to see Professor Juniper!
-Pokemon = PANSEAR,22
-Pokemon = WOOBAT,22
+Pokemon = PANSEAR,24
+Pokemon = WOOBAT,24
 #-------------------------------
 [YOUNGSTER,Shane]
 LoseText = The purpose of the journey is found in those that I meet!
-Pokemon = MINCCINO,22
-Pokemon = BLITZLE,22
+Pokemon = MINCCINO,24
+Pokemon = BLITZLE,25
 #-------------------------------
 [FISHERMAN,Lydon]
 LoseText = I couldn't pull in the big one!
-Pokemon = BASCULIN,23
-Pokemon = BLITZLE,23
+Pokemon = BASCULIN,25
+Pokemon = BLITZLE,25
 #-------------------------------
 [SWIMMER2_F,Joyce]
 LoseText = You made a big splash!
-Pokemon = ALOMOMOLA,23
+Pokemon = ALOMOMOLA,25
 #-------------------------------
 [SWIMMER2_M,Wright]
 LoseText = Jokes on you, that makes them stronger!
-Pokemon = BASCULIN,19
-Pokemon = BASCULIN,19
-Pokemon = BASCULIN,19
-Pokemon = BASCULIN,19
+Pokemon = BASCULIN,21
+Pokemon = BASCULIN,21
+Pokemon = BASCULIN,21
+Pokemon = BASCULIN,21
 #-------------------------------
 [SWIMMER2_M,Berke]
 LoseText = I'm all flopping around!
-Pokemon = FRILLISH,25
-Pokemon = PANPOUR,25
+Pokemon = FRILLISH,26
+Pokemon = PANPOUR,26
 #-------------------------------
 [SWIMMER2_F,Caroline]
 LoseText = You're swimming faster than me!
-Pokemon = DUCKLETT,25
-Pokemon = FRILLISH,25
+Pokemon = DUCKLETT,26
+Pokemon = FRILLISH,26
 #-------------------------------
 [HIKER,Jeremiah]
 LoseText = I guess my days are numbered...
-Pokemon = ROGGENROLA,24
-Pokemon = DWEBBLE,24
+Pokemon = ROGGENROLA,25
+Pokemon = DWEBBLE,25
 #-------------------------------
 [LASS,Kumiko]
 LoseText = I'm taking a few steps backwards.
-Pokemon = EMOLGA,24
+Pokemon = EMOLGA,27
 #-------------------------------
 [YOUNGSTER,Sam]
 LoseText = Just too good!
-Pokemon = COTTONEE,24
+Pokemon = COTTONEE,27
 #-------------------------------
 [ACETRAINER_M,Ray]
 LoseText = Quite the trainer you are!
-Pokemon = BASCULIN,24
-Pokemon = PANSAGE,24
-Pokemon = DARUMAKA,24
+Pokemon = BASCULIN,26
+Pokemon = PANSAGE,26
+Pokemon = DARUMAKA,26
 #-------------------------------
 [BATTLEGIRL,Hillary]
 LoseText = I slipped on a banana.
-Pokemon = SCRAGGY,24
-Pokemon = TIMBURR,24
+Pokemon = SCRAGGY,26
+Pokemon = TIMBURR,27
 #-------------------------------
 [GENTLEMAN,Kenneth]
 LoseText = Quite a fine battle indeed!
-Pokemon = LOTAD,24
+Pokemon = LOTAD,27
 	Item = EVIOLITE
-Pokemon = SANDILE,24
+Pokemon = SANDILE,27
 #-------------------------------
 [TARTARUS,Tartarus,1]
 LoseText = Quite a fine battle indeed!

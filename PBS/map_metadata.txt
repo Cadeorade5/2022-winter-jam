@@ -460,6 +460,7 @@ ShowArea = true
 Name = Route 1
 Outdoor = true
 ShowArea = true
+BattleBack = Grass
 #-------------------------------
 [089]   # Nuvema Town
 Name = Nuvema Town
